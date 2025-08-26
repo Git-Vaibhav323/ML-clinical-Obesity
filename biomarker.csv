@@ -1,0 +1,2784 @@
+0,1,2,3,4,5,6,7,8,9,10
+IDENTIFICATION,,,,,,,,,,
+"STATE
+DISTRICT
+TEHSIL/TALUK
+CITY/TOWN/VILLAGE
+TYPE OF PSU (URBAN = 1, RURAL = 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+PSU NUMBER. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+STRUCTURE NUMBER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+HOUSEHOLD NUMBER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+NAME OF HOUSEHOLD HEAD
+ADDRESS OF HOUSEHOLD
+IS HOUSEHOLD SELECTED FOR THE STATE MODULE? (YES = 1, NO = 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+IS HOUSEHOLD SELECTED FOR DRIED BLOOD SPOT (DBS) COLLECTION? (YES = 1, NO = 2) . . . . . . . . . . . . . . . . . . . . . . . . .",,,,,,,,,,
+HEALTH INVESTIGATOR VISITS,,,,,,,,,,
+,1,2,,3,FINAL VISIT,,,,,
+DATE,,,,,"DAY
+MONTH
+YEAR",,,,,
+"NEXT VISIT: DATE
+TIME",,,,,"TOTAL NUMBER
+OF VISITS",,,,,
+"*LANGUAGE OF HINDI 0 4
+QUESTIONNAIRE: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+*LANGUAGE 01 ASSAMESE 06 KASHMIRI 11 NEPALI 16 TELUGU 96 OTHER
+CODES: 02 BENGALI 07 KONKANI 12 ORIYA 17 URDU
+03 GUJARATI 08 MALAYALAM 13 PUNJABI 18 ENGLISH SPECIFY
+04 HINDI 09 MANIPURI 14 SINDHI 19 GARO
+05 KANNADA 10 MARATHI 15 TAMIL 20 KHASI",,,,,,0 4,,,,
+"TOTAL NUMBER OF ELIGIBLE WOMEN AGE 15+ . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+TOTAL NUMBER OF ELIGIBLE CHILDREN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+TOTAL NUMBER OF ELIGIBLE MEN AGE 15+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",,,,,,,,,,
+"SUPERVISOR
+NAME
+DATE",,,"HEALTH INVESTIGATOR
+NAME
+DATE",,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+201,"FROM THE LIST OF ELIGIBLE CHILDREN, RECORD THE NAME AND LINE NUMBER IN THE SAME ORDER THEY APPEAR IN THE
+HOUSEHOLD SCHEDULE.
+IF MORE THAN SIX CHILDREN, USE ADDITIONAL QUESTIONNAIRE(S).",,,,,,,,,
+,,CHILD 1,CHILD 2,CHILD 3,,,,,,
+202,"NAME
+LINE
+NUMBER","NAME
+LINE
+NUMBER . . . . . . . .","NAME
+LINE
+NUMBER . . . . .","NAME
+LINE
+NUMBER . . . . .",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+203,(NAME) के जन् म क� तारीख क् या ह?ै,"DAY . . . . . . . . . .
+MONTH. . . . . . . . . .
+YEAR","DAY . . . . . . . .
+MONTH . . . . .
+YEAR","DAY . . . . . . . .
+MONTH . . . . .
+YEAR",,,,,,
+204,"CHECK 203:
+CHILD BORN IN JANUARY
+2014 OR LATER?","YES . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . 2
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)","YES. . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)","YES. . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)",,,,,,
+205,WEIGHT IN KILOGRAMS,".
+KG.
+NOT PRESENT . . . . . . . 9994
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+REFUSED. . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . 9996",".
+KG.
+NOT PRESENT. . . . . 9994
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+REFUSED. . . . . . . . . 9995
+OTHER . . . . . . . . . 9996",".
+KG.
+NOT PRESENT. . . . . 9994
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+REFUSED. . . . . . . . . 9995
+OTHER . . . . . . . . . 9996",,,,,,
+206,HEIGHT IN CENTIMETRES,".
+CM.
+REFUSED. . . . . . . . . . . . 9995
+OTHER. . . . . . . . . . . . . . 9996",".
+CM.
+REFUSED. . . . . . . . . 9995
+OTHER . . . . . . . . . 9996",".
+CM.
+REFUSED. . . . . . . . . 9995
+OTHER . . . . . . . . . 9996",,,,,,
+207,"MEASURED LYING DOWN OR
+STANDING UP?","LYING DOWN . . . . . . . . . 1
+STANDING UP . . . . . . . . . 2
+NOT MEASURED . . . . . . . 3","LYING DOWN . . . . . . . 1
+STANDING UP . . . . . . . 2
+NOT MEASURED . . . . . 3","LYING DOWN . . . . . . . 1
+STANDING UP . . . . . . . 2
+NOT MEASURED . . . . . 3",,,,,,
+208,"CHECK 203:
+IS CHILD AGE 0-5 MONTHS, I.E.,
+WAS CHILD BORN IN MONTH OF
+INTERVIEW OR FIVE PREVIOUS
+MONTHS?","0-5 MONTHS . . . . . . . . . . . 1
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+OLDER . . . . . . . . . . . . . . . . 2","0-5 MONTHS . . . . . . . 1
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+OLDER . . . . . . . . . . . 2","0-5 MONTHS . . . . . . . 1
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+OLDER . . . . . . . . . . . 2",,,,,,
+209,"NAME OF PARENT/OTHER
+ADULT RESPONSIBLE FOR
+THE CHILD",NAME,NAME,NAME,,,,,,
+210,"ASK CONSENT FOR ANAEMIA
+TEST FROM PARENT/OTHER
+ADULT IDENTIFIED IN 209 AS
+RESPONSIBLE FOR CHILD.","इस सव�क्षण म�, हम पुरे देश म� लोग� को एिनिमया क� जांच म� भाग लेने को कह रहे ह� I एिनिमया एक गंभीर स् वास् थ् य समस् या है जो
+क� आमतौर पर खराब पोषण, सं�मण, या दीघर्कािलक रोग� के प�रणाम से होता है I यह ज�च सरकार के एिनिमया को रोकने और
+इलाज करने के कायर्�म� को िवकिसत करने म� सहायता करेगी I इस सव�क्षण म�, हम उन सभी ब�� को िजनका जन् म 2014 अथवा
+उसके बाद का है, इस एिनिमया ज�च म� शािमल करेग� तथा उनके र� के कुछ बूंद उनके अंगुली या एड़ी से लेग� I र� का नमुना लेने
+वाला यं� पुरी तरह से स् वच् छ और सुरिक्षत होगाI यह इस ज�च से पहले कभी भी उपयोग म� नही लाया गया है और �त्येक ज�च के
+बाद इसे नष् ट कर �दया जायेगा । एिनिमया हेतु रक् त का जांच तत् क्षिणक �कया जायेगा और ज�च के प�रणाम से आपको तुरन् त ही
+अवगत करा �दया जायेगा I ज�च प�रणाम को पूणर् तरीके से गोपनीय रखा जायेगा तथा इस सव�क्षण दल के सदस् य� के अलावा अन् य
+�कसी को भी उसके बारे म� नही बताया जायेगा I
+क् या आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए हां अथवा ना कह सकते है, यह आपके िनणर्य के उपर है
+क् या आप (NAME OF CHILD) क� ज�च कराना चाह�गे?",,,,,,,,
+211,"CIRCLE THE APPROPRIATE
+CODE AND SIGN YOUR NAME.","GRANTED (SIGNED). . . 1
+(SIGN)
+REFUSED . . . . . . . . . 2
+GRANTED . . . . . . . . . 3
+(NO SIGNATURE)","GRANTED (SIGNED). 1
+(SIGN)
+REFUSED . . . . . . . 2
+GRANTED . . . . . . . 3
+(NO SIGNATURE)","GRANTED (SIGNED). 1
+(SIGN)
+REFUSED . . . . . . . 2
+GRANTED . . . . . . . 3
+(NO SIGNATURE)",,,,,,
+212,"RECORD HAEMOGLOBIN LEVEL
+HERE AND IN THE ANAEMIA
+PAMPHLET.",".
+G/DL
+REFUSED . . . . . . . . . 995
+OTHER . . . . . . . . . . . . 996",".
+G/DL
+REFUSED . . . . . . . 995
+OTHER . . . . . . . . . 996",".
+G/DL
+REFUSED . . . . . . . 995
+OTHER . . . . . . . . . 996",,,,,,
+213,"GO BACK TO 203 IN THE NEXT COLUMN ON THIS PAGE OR IN THE FIRST COLUMN OF THE NEXT PAGE;
+IF NO MORE CHILDREN, GO TO 301.",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,CHILD 4,CHILD 5,CHILD 6,,,,,,
+202,"NAME
+LINE
+NUMBER","NAME
+LINE
+NUMBER . . . . .","NAME
+LINE
+NUMBER . . . . .","NAME
+LINE
+NUMBER . . . . .",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+203,(NAME) के जन् म क� तारीख क् या ह?ै,"DAY . . . . . . . .
+MONTH . . . . .
+YEAR","DAY . . . . . . . .
+MONTH . . . . .
+YEAR","DAY . . . . . . . .
+MONTH . . . . .
+YEAR",,,,,,
+204,"CHECK 203:
+CHILD BORN IN JANUARY
+2014 OR LATER?","YES . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)","YES. . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)","YES. . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)",,,,,,
+205,WEIGHT IN KILOGRAMS,".
+KG.
+NOT PRESENT . . . 9994
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+REFUSED . . . . . . . 9995
+OTHER . . . . . . . . . 9996",".
+KG.
+NOT PRESENT . . . 9994
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+REFUSED . . . . . . . 9995
+OTHER . . . . . . . . . 9996",".
+KG.
+NOT PRESENT . . . 9994
+(GO TO 203 IN FIRST
+COLUMN OF A NEW
+QUESTIONNAIRE FOR
+NEXT CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+REFUSED . . . . . . . 9995
+OTHER . . . . . . . . . 9996",,,,,,
+206,HEIGHT IN CENTIMETRES,".
+CM.
+REFUSED . . . . . . . 9995
+OTHER . . . . . . . . . 9996",".
+CM.
+REFUSED . . . . . . . 9995
+OTHER . . . . . . . . . 9996",".
+CM.
+REFUSED . . . . . . . 9995
+OTHER . . . . . . . . . 9996",,,,,,
+207,"MEASURED LYING DOWN OR
+STANDING UP?","LYING DOWN . . . . . . . 1
+STANDING UP . . . . . . . 2
+NOT MEASURED . . . 3","LYING DOWN . . . . . . . 1
+STANDING UP . . . . . . . 2
+NOT MEASURED . . . 3","LYING DOWN . . . . . . . 1
+STANDING UP . . . . . . . 2
+NOT MEASURED . . . 3",,,,,,
+208,"CHECK 203:
+IS CHILD AGE 0-5 MONTHS, I.E.,
+WAS CHILD BORN IN MONTH OF
+INTERVIEW OR FIVE PREVIOUS
+MONTHS?","0-5 MONTHS . . . . . . . 1
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+OLDER . . . . . . . . . . . 2","0-5 MONTHS . . . . . . . 1
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+OLDER . . . . . . . . . . . 2","0-5 MONTHS . . . . . . . 1
+(GO TO 203 FOR NEXT
+CHILD OR, IF NO
+MORE CHILDREN,
+GO TO 301)
+OLDER . . . . . . . . . . . 2",,,,,,
+209,"NAME OF PARENT/OTHER
+ADULT RESPONSIBLE FOR
+THE CHILD",NAME,NAME,NAME,,,,,,
+210,"ASK CONSENT FOR ANAEMIA
+TEST FROM PARENT/OTHER
+ADULT IDENTIFIED IN 209 AS
+RESPONSIBLE FOR CHILD.","इस सव�क्षण म�, हम पुरे देश म� लोग� को एिनिमया क� जांच म� भाग लेने को कह रहे ह� I एिनिमया एक गंभीर स् वास् थ् य समस् या है ज
+क� आमतौर पर खराब पोषण, सं�मण, या दीघर्कािलक रोग� के प�रणाम से होता है I यह ज�च सरकार के एिनिमया को रोकने और
+इलाज करने के कायर्�म� को िवकिसत करने म� सहायता करेगी I इस सव�क्षण म�, हम उन सभी ब�� को िजनका जन् म 2014 अथवा
+उसके बाद का है, इस एिनिमया ज�च म� शािमल करेग� तथा उनके र� के कुछ बूंद उनके अंगुली या एड़ी से लेग� I र� का नमुना लेने
+वाला यं� पुरी तरह से स् वच् छ और सुरिक्षत होगाI यह इस ज�च से पहले कभी भी उपयोग म� नही लाया गया है और �त्येक ज�च के
+बाद इसे नष् ट कर �दया जायेगा । एिनिमया हेतु रक् त का जांच तत् क्षिणक �कया जायेगा और ज�च के प�रणाम से आपको तुरन् त ही
+अवगत करा �दया जायेगा I ज�च प�रणाम को पूणर् तरीके से गोपनीय रखा जायेगा तथा इस सव�क्षण दल के सदस् य� के अलावा अन् य
+�कसी को भी उसके बारे म� नही बताया जायेगा I
+क् या आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए हां अथवा ना कह सकते है, यह आपके िनणर्य के उपर है
+क् या आप (NAME OF CHILD) क� ज�च कराना चाह�गे?",,,,,,,,
+211,"CIRCLE THE APPROPRIATE
+CODE AND SIGN YOUR NAME.","GRANTED (SIGNED) . 1
+(SIGN)
+REFUSED . . . . . . . 2
+GRANTED . . . . . . . 3
+(NO SIGNATURE)","GRANTED (SIGNED). 1
+(SIGN)
+REFUSED . . . . . . . 2
+GRANTED . . . . . . . 3
+(NO SIGNATURE)","GRANTED (SIGNED). 1
+(SIGN)
+REFUSED . . . . . . . 2
+GRANTED . . . . . . . 3
+(NO SIGNATURE)",,,,,,
+212,"RECORD HAEMOGLOBIN LEVEL
+HERE AND IN THE ANAEMIA
+PAMPHLET.",".
+G/DL
+REFUSED . . . . . . . 995
+OTHER . . . . . . . . . 996",".
+G/DL
+REFUSED . . . . . . . 995
+OTHER . . . . . . . . . 996",".
+G/DL
+REFUSED . . . . . . . 995
+OTHER . . . . . . . . . 996",,,,,,
+213,"GO BACK TO 203 IN THE NEXT COLUMN ON THIS PAGE OR (FOR CHILD 7) GO TO 203
+IN THE FIRST COLUMN OF A NEW QUESTIONNAIRE;
+IF NO MORE CHILDREN, GO TO 301.",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+301,"FROM THE LIST OF ELIGIBLE WOMEN AGE 15+ IN THE HOUSEHOLD QUESTIONNAIRE. RECORD THE NAME, LINE NUMBER, AGE, AND
+MARITAL STATUS IN THE SAME ORDER THEY APPEAR IN THE HOUSEHOLD SCHEDULE.
+WRITE THE NAME OF EACH WOMAN AT THE TOP OF THE FOLLOWING PAGES.
+IF THERE ARE MORE THAN THREE WOMEN, USE ADDITIONAL QUESTIONNAIRE(S).",,,,,,,,,
+,,WOMAN 1,WOMAN 2,WOMAN 3,,,,,,
+302,"NAME
+LINE
+NUMBER
+AGE
+MARITAL
+STATUS","NAME
+LINE
+NUMBER . . . . . . . . . . . .
+AGE . . . . . . . . . . . . . . . . .
+IFAGE 50 AND ABOVE GO TO 312
+NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2","NAME
+LINE
+NUMBER . . . . . . . . . . . .
+AGE . . . . . . . . . . . . . . . . .
+IFAGE 50 AND ABOVE GO TO 312
+NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2","NAME
+LINE
+NUMBER . . . . . . . . . . . .
+AGE . . . . . . . . . . . . . . . .
+IFAGE 50 AND ABOVE GO TO 312
+NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+303,"WEIGHT
+IN KILOGRAMS","KG. .
+NOT PRESENT . . . . . . . . . . 99994
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+REFUSED . . . . . . . . . . . . . . . 99995
+OTHER . . . . . . . . . . . . . . . . . 99996","KG. .
+NOT PRESENT . . . . . . . . . . 99994
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+REFUSED . . . . . . . . . . . . . . 99995
+OTHER . . . . . . . . . . . . . . . . . 99996","KG. .
+NOT PRESENT . . . . . . . . . . 99994
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+REFUSED . . . . . . . . . . . . . . 99995
+OTHER . . . . . . . . . . . . . . . . 99996",,,,,,
+304,"HEIGHT
+IN CENTIMETRES","CM. .
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996","CM. .
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996","CM. .
+REFUSED . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . 9996",,,,,,
+305,"WAIST
+CIRCUMFERENCE
+IN CENTIMETRES","CM. .
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996","CM. .
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996","CM. .
+REFUSED . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . 9996",,,,,,
+306,"HIP
+CIRCUMFERENCE
+IN CENTIMETRES","CM. .
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996","CM. .
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996","CM. .
+REFUSED . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . 9996",,,,,,
+307,"AGE:
+CHECK 302.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 312)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 312)","15-17 YEARS . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . 2
+(GO TO 312)",,,,,,
+308,"MARITAL STATUS:
+CHECK 302.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 312)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 312)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 312)",,,,,,
+309,"RECORD NAME
+OF PARENT/OTHER
+ADULT RESPON-
+SIBLE FOR
+ADOLESCENT.",NAME,NAME,NAME,,,,,,
+310,"ASK CONSENT
+FOR
+BLOOD PRESSURE
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 309
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+WOMEN
+AGE 15-17.","म,� (NAME OF ADOLESCENT) रक् तचाप क� जांच करना चाहता/चाहती �ं I यह तीन बार हर 5 िमनट के अन् तराल पर मापा जायेगाI यह एक नुकसान रिहत
+���या है I यह �कसी व् यि� के उच् च रक् तचाप क� जांच करने के िलए �युक् त होता Iह यै �द उच् च रक् तचाप का इलाज नह� �कया गया तो यह कालान् तर म� �दय को भारी
+क्षित प�ंचा सकता है I रक् तचाप के जांच का प�रणाम आपको बता �दया जायेगा और जांच ���या के समाप् त होने के बाद म(� NAME OF ADOLESCENT) रक् तचाप
+सुचकांक का अथर् समझाऊंगा I य�द (NAME OF ADOLESCENT) रक् तचाप उच् च होगा तब हम( NAME OF ADOLESCENT) स् वास् थ् य सेवा या िच�कत् सक से
+परामशर् लेने क� सलाह देग,� क् य��क हम इस सव�क्षण के दौरान इससे आगे क� जांच या इलाज नह� कर सकते है I आप �कसी भी समय इस रक् तचाप क� जांच म� नह� भाग
+लेने का िनणर्य कर सकते है I जांच प�रणाम को पूणर्तः गोपनीय रखा जायेगा और सव�क्षण दल सदस् य के अलावा �कसी अन् य को यह जानकारी नह� दी जायेगीI
+क् या आप कुछ पूछना चाहते है ?
+आप चाहे तो (NAME OF ADOLESCENT) के ज�च के िलए ‘हा’ अथवा ‘ना’ कह सकते है I
+क् या आप (NAME OF ADOLESCENT) के रक् तचाप क� जांच क� अनुमित द�गे ?",,,,,,,,
+311,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 342)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 342)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 342)",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,WOMAN 1,WOMAN 2,WOMAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+"312 ASK CONSENT म,� आपके रक् तचाप क� जांच करना चाहता/चाहती �ं I यह तीन बार हर 5 िमनट के अन् तराल पर मापा जायेगाI यह एक नुकसान रिहत ���या है I यह �कसी व् यि� के
+FOR BLOOD उच् च रक् तचाप क� जांच करने के िलए �युक् त होता हI ै य�द उच् च रक् तचाप का इलाज नह� �कया गया तो यह कालान् तर म� �दय को भारी क्षित प�ंचा सकता हI ै रक् तचाप
+PRESSURE FROM के जांच का प�रणाम आपको बता �दया जायेगा और जांच ���या के समाप् त होने के बाद म� आपको रक् तचाप सुचकांक का अथर् समझाऊंगाI य�द आपका रक् तचाप उच् च
+RESPONDENT.
+होगा तब हम आपको स् वास् थ् य सेवा या िच�कत् सक से परामशर् लेने क� सलाह द, ेगक्� य��क हम इस सव�क्षण के दौरान इससे आगे क� जांच या इलाज नह� कर सकते है I आप
+�कसी भी समय इस रक् तचाप क� जांच म� नह� भाग लेने का िनणर्य कर सकते है I जांच प�रणाम को पूणर्तः गोपनीय रखा जायेगा और सव�क्षण दल सदस् य के अलावा �कसी
+अन् य को यह जानकारी नह� दी जायेगी I
+क् या आप कुछ पूछना चाहते है ?
+आप चाहे तो ज�च के िलए ‘हा’ अथवा ‘ना’ कह सकते है I
+क् या आप अपने इस रक् तचाप क� जांच क� अनुमित द�ग?े",,,,,,,,,,
+313,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+(IF REFUSED, GO TO 340)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+(IF REFUSED, GO TO 340)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+(IF REFUSED, GO TO 340)",,,,,,
+"314
+a)
+b)
+c)
+d)","रक् तचाप/बी पी मापने से
+पहले म� आपसे कुछ सवाल
+पूछना चा�ंगा/चा�ंगी उन
+चीज़ो के बारे म� जो माप को
+�भािवत कर सकते है।
+िपछले 30 िमनट म� क्या
+आपने िन�िलिखत म� से
+कुछ �क थी:
+कुछ खािय थी ?
+कॉफ�, चाय, कोला या अन् य
+पेय पदाथर् िजसम� कैफेन हो
+उसका सेवन �क थी ?
+कोई तम् बाकू से बने पदाथर्
+का धू�पान �क थी ?
+क् या �कसी अन् य �कार का
+तम् बाकू जैसे गुटखा,
+तम् बाकूवाला पान मसाला
+या अन्य चबानेवाला या
+सूंघनेवाला तम् बाकू का
+सेवन �क थी?","YES NO
+EATEN . . . . . . . . . . . . 1 2
+HAD CAFFEINATED
+DRINK . . . . . . . . . . . . 1 2
+SMOKED . . . . . . . . . . . . 1 2
+OTHER TOBACCO . . . 1 2","YES NO
+EATEN . . . . . . . . . . . . 1 2
+HAD CAFFEINATED
+DRINK. . . . . . . . . . . . 1 2
+SMOKED. . . . . . . . . . . . 1 2
+OTHER TOBACCO . . . 1 2","YES NO
+EATEN . . . . . . . . . . . . 1 2
+HAD CAFFEINATED
+DRINK. . . . . . . . . . . . 1 2
+SMOKED. . . . . . . . . . . . 1 2
+OTHER TOBACCO . . . 1 2",,,,,,
+315,"क् या म� रक् तचाप मापने क�
+���या शु� क�? म� आपके
+ब�ह के प�रिध क� माप से
+शु�वात करता/करती �ं
+ता�क म� सुिनि�त हो जांऊ
+क� म� सही उपकरण का
+उपयोग कर रहा/रही �ँ ।","ARM CIRCUMFERENCE
+(IN CENTIMETRES) . .
+MEASURE THE CIRCUMFERENCE OF
+THE RESPONDENT'S ARM MIDWAY
+BETWEEN THE ELBOW AND THE
+SHOULDER. RECORD THE
+MEASUREMENT IN CENTIMETRES.","ARM CIRCUMFERENCE
+(IN CENTIMETRES) . .
+MEASURE THE CIRCUMFERENCE OF
+THE RESPONDENT'S ARM MIDWAY
+BETWEEN THE ELBOW AND THE
+SHOULDER. RECORD THE
+MEASUREMENT IN CENTIMETRES.","ARM CIRCUMFERENCE
+(IN CENTIMETRES) .
+MEASURE THE CIRCUMFERENCE OF
+THE RESPONDENT'S ARM MIDWAY
+BETWEEN THE ELBOW AND THE
+SHOULDER. RECORD THE
+MEASUREMENT IN CENTIMETRES.",,,,,,
+316,"USE THE ARM
+CIRCUMFERENCE
+MEASUREMENT TO
+SELECT THE
+APPROPRIATE
+BLOOD PRESSURE
+MONITOR CUFF
+SIZE","SMALL: 17 CM – 22 CM . . . . . . . . . . 1
+MEDIUM: 23 CM – 31 CM . . . . . . . 2
+LARGE: 32 CM – 42 CM . . . . . . . . . . 3","SMALL: 17 CM – 22 CM . . . . . . . . . . 1
+MEDIUM: 23 CM – 31 CM . . . . . . . 2
+LARGE: 32 CM – 42 CM. . . . . . . . . . 3","SMALL: 17 CM – 22 CM . . . . . . . . . . 1
+MEDIUM: 23 CM – 31 CM . . . . . . . 2
+LARGE: 32 CM – 42 CM. . . . . . . . . . 3",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,WOMAN 1,,,WOMAN 2,,,WOMAN 3,,
+,NAME,NAME,,,NAME,,,NAME,,
+317,"RECORD TIME
+OF FIRST
+BP READING","HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,
+,,,,,,,,,,
+318,"TAKE THE FIRST
+BLOOD PRESSURE
+READING. RECORD
+THE SYSTOLIC AND
+DIASTOLIC
+PRESSURE.","FIRST BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 340)",,,"FIRST BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 340)",,,"FIRST BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 340)",,
+319,"इस सव�क्षण के पहले क् या
+कभी आपका रक् तचाप
+मापा गया है?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,
+320,"क्या दो या अिधक बार
+�कसी डॉक्टर , नसर् या
+एएनएम ने आपको बताया
+�क आपको अितरक् तदाब
+(हाइपरट�शन) या उ�
+रक्चचाप है?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 322)",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 322)",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 322)",,
+321,"अपने रक् तचाप को कम
+करने के िलए क् या अब आप
+िनधार्�रत दवा ले रहे है ?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,
+322,CHECK THAT IT HAS BEEN AT LEAST 5 MINUTES BEFORE TAKING THE SECOND BLOOD PRESSURE MEASUREMENT,,,,,,,,,
+323,"क् या म� इस समय आपका
+रक् तचाप माप सकता/सकती
+�ं?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 334)",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 334)",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 334)",,
+324,"RECORD TIME
+OF SECOND
+BP READING","HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,
+,,,,,,,,,,
+325,"TAKE THE SECOND
+BLOOD PRESSURE
+READING. RECORD
+THE SYSTOLIC AND
+DIASTOLIC
+PRESSURE.","SECOND BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 334)",,,"SECOND BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 334)",,,"SECOND BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 334)",,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,WOMAN 1,,,WOMAN 2,,,WOMAN 3,,
+,NAME,NAME,,,NAME,,,NAME,,
+326,CHECK THAT IT HAS BEEN AT LEAST 5 MINUTES BEFORE TAKING THE THIRD BLOOD PRESSURE MEASUREMENT,,,,,,,,,
+327,"क् या म� इस समय आपका
+रक् तचाप माप सकता/सकती
+�ं?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 336)",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 336)",,,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 336)",,
+328,"RECORD TIME
+OF THIRD
+BP READING","HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,
+,,,,,,,,,,
+329,"TAKE THE THIRD
+BLOOD PRESSURE
+READING. RECORD
+THE SYSTOLIC AND
+DIASTOLIC
+PRESSURE.","THIRD BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 336)",,,"THIRD BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 336)",,,"THIRD BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 336)",,
+330,"RECORD THE SUM
+OF THE SYSTOLIC
+MEASURES FROM
+325 AND 329.","SUM
+SYSTOLIC",,,"SUM
+SYSTOLIC",,,"SUM
+SYSTOLIC",,
+331,"CALCULATE THE
+AVERAGE
+SYSTOLIC
+PRESSURES BY
+DIVIDING THE SUM
+IN 330 BY 2.","AVERAGE
+SYSTOLIC
+CIRCLE IN 338",,,"AVERAGE
+SYSTOLIC
+CIRCLE IN 338",,,"AVERAGE
+SYSTOLIC
+CIRCLE IN 338",,
+332,"RECORD THE SUM
+OF THE DIASTOLIC
+MEASURES FROM
+325 AND 329.","SUM
+DIASTOLIC",,,"SUM
+DIASTOLIC",,,"SUM
+DIASTOLIC",,
+333,"CALCULATE THE
+AVERAGE
+DIASTOLIC
+PRESSURES BY
+DIVIDING THE SUM
+IN 332 BY 2.","AVERAGE
+DIASTOLIC
+CIRCLE IN 338
+AND SKIP TO 338",,,"AVERAGE
+DIASTOLIC
+CIRCLE IN 338
+AND SKIP TO 338",,,"AVERAGE
+DIASTOLIC
+CIRCLE IN 338
+AND SKIP TO 338",,
+333A,"IF ONLY ONE MEASUREMENT WAS TAKEN, RECORD THE FIRST SYSTOLIC AND DIASTOLIC NUMBERS HERE.",,,,,,,,,
+334,"RECORD THE
+SYSTOLIC
+MEASURE FROM
+318.","SYSTOLIC
+CIRCLE IN 338",,,"SYSTOLIC
+CIRCLE IN 338",,,"SYSTOLIC
+CIRCLE IN 338",,
+335,"RECORD THE
+DIASTOLIC
+MEASURE FROM
+318.","DIASTOLIC
+CIRCLE IN 338
+AND SKIP TO 338",,,"DIASTOLIC
+CIRCLE IN 338
+AND SKIP TO 338",,,"DIASTOLIC
+CIRCLE IN 338
+AND SKIP TO 338",,
+335A,"IF ONLY TWO MEASUREMENTS WERE TAKEN, RECORD THE SECOND SYSTOLIC AND DIASTOLIC NUMBERS HERE.",,,,,,,,,
+336,"RECORD THE
+SYSTOLIC
+MEASURE FROM
+325.","SYSTOLIC
+CIRCLE IN 338",,,"SYSTOLIC
+CIRCLE IN 338",,,"SYSTOLIC
+CIRCLE IN 338",,
+337,"RECORD THE
+DIASTOLIC
+MEASURE FROM
+325.","DIASTOLIC
+CIRCLE IN 338",,,"DIASTOLIC
+CIRCLE IN 338",,,"DIASTOLIC
+CIRCLE IN 338",,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,WOMAN 1,WOMAN 2,WOMAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+338,"CIRCLE THE SINGLE
+NUMBER WHERE
+THE AVERAGE
+DIASTOLIC AND
+SYSTOLIC
+MEASURES MEET.
+AVERAGE
+SYSTOLIC
+<120
+120-129
+130-139
+140-159
+160-179
+≥180","AVERAGE DIASTOLIC
+<80 8 8 0 4 - 8 8 5 9 - 9 9 0 9 - 1 1 0 0 0 9 - ≥110
+1 2 3 4 5 6
+2 2 3 4 5 6
+3 3 3 4 5 6
+4 4 4 4 5 6
+5 5 5 5 5 6
+6 6 6 6 6 6","AVERAGE DIASTOLIC
+<80 8 8 0 4 - 8 8 5 9 - 9 9 0 9 - 1 1 0 0 0 9 - ≥110
+1 2 3 4 5 6
+2 2 3 4 5 6
+3 3 3 4 5 6
+4 4 4 4 5 6
+5 5 5 5 5 6
+6 6 6 6 6 6","AVERAGE DIASTOLIC
+<80 8 8 0 4 - 8 8 5 9 - 9 9 0 9 - 1 1 0 0 0 9 - ≥110
+1 2 3 4 5 6
+2 2 3 4 5 6
+3 3 3 4 5 6
+4 4 4 4 5 6
+5 5 5 5 5 6
+6 6 6 6 6 6",,,,,,
+339,"RECORD THE NUMBER YOU CIRCLED IN 338 IN THE CHART BELOW. THEN USE THE INSTRUCTIONS TO THE RIGHT OF THAT NUMBER TO
+COMPLETE A BLOOD PRESSURE REPORT AND REFERRAL FORM FOR THE RESPONDENT. GIVE THE FORM TO THE RESPONDENT AND ANSWER
+ANY QUESTIONS.
+NUMBER RESPONDENT'S BLOOD PRESSURE CONSULT HEALTH PROVIDER TO CHECK
+CIRCLED IN 338 CATEGORY BLOOD PRESSURE WITHIN:
+1 NORMAL (OPTIMAL) 1 YEAR
+2 NORMAL (MILDLY HIGH) 1 YEAR
+3 NORMAL (MODERATELY HIGH) 2 MONTHS
+4 ABNORMAL (MILDLY ELEVATED) 1 MONTH
+5 ABNORMAL (MODERATELY ELEVATED) 1 WEEK
+6 ABNORMAL (SEVERELY ELEVATED) IMMEDIATELY",,,,,,,,,
+339A,,"IF 338=6 OTHER
+GO TO 378A","IF 338=6 OTHER
+GO TO 378A","IF 338=6 OTHER
+GO TO 378A",,,,,,
+340,"AGE:
+CHECK 302.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 344)
+50 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 351)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 344)
+50 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 351)","15-17 YEARS . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . 2
+(GO TO 344)
+50 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 351)",,,,,,
+341,"MARITAL STATUS:
+CHECK 302.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 344)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 344)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 344)",,,,,,
+342,"ASK CONSENT
+FOR
+ANAEMIA TEST
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 309
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+WOMEN
+AGE 15-17.","इस सव�क्षण म,� हम पुरे देश म� लोग� को एिनिमया क� जांच म� भाग लेने को कह रहे ह� I एिनिमया एक गंभीर स् वास् थ् य समस् या है जो क� आमतौर पर खराब पोष, ण
+सं�मण, या दीघर्कािलक रोग� के प�रणाम से होता है I यह जांच सरकार के एिनिमया को रोकने और इलाज करने के कायर्�म� को िवकिसत करने म� सहायता करेगी I
+एिनिमया जांच हेतु, हम� अंगुली से रक् त के कुछ बूद� क� आवश् यकता होगी। रक् त का नमुना लेनेवाला यं� स् वच् छ और पूरी तरह से सुरिक्षत होगा। यह इस ज�च से पहले
+कभी भी उपयोग म� नही लाया गया है और �त्येक ज�च के बाद इसे नष् ट कर �दया जायेगा I एिनिमया हेतु रक् त का जांच तत् क्षिणक �कया जायेगा और ज�च के प�रणाम से
+आपको और (NAME OF ADOLESCENT) को तुरन् त ही अवगत करा �दया जायेगा I ज�च प�रणाम को पूणर् तरीके से गोपनीय रखा जायेगा तथा इस सव�क्षण दल के
+सदस् य� के अलावा अन् य �कसी को भी उसके बारे म� नही बताया जायेगाI
+क् या आप कुछ पूछना चाहते है ?
+आप चाहे तो (NAME OF ADOLESCENT) के ज�च के िलए ‘हा’ अथवा ‘ना’ कह सकते है I
+क् या आप (NAME OF ADOLESCENT) का एिनिमया क� जांच क� अनुमित द�गे ?",,,,,,,,
+343,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 349)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 349)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 349)",,,,,,
+"NUMBER
+CIRCLED IN 338
+1
+2
+3
+4
+5
+6","RESPONDENT'S BLOOD PRESSURE
+CATEGORY","CONSULT HEALTH PROVIDER TO CHECK
+BLOOD PRESSURE WITHIN:",,,,,,,,
+,NORMAL (OPTIMAL),1 YEAR,,,,,,,,
+,NORMAL (MILDLY HIGH),1 YEAR,,,,,,,,
+,NORMAL (MODERATELY HIGH),2 MONTHS,,,,,,,,
+,ABNORMAL (MILDLY ELEVATED),1 MONTH,,,,,,,,
+,ABNORMAL (MODERATELY ELEVATED),1 WEEK,,,,,,,,
+,ABNORMAL (SEVERELY ELEVATED),IMMEDIATELY,,,,,,,,
+,,WOMAN 1,WOMAN 2,WOMAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+344,"ASK CONSENT
+FOR
+ANAEMIA TEST
+FROM
+RESPONDENT.","इस सव�क्षण म,� हम पुरे देश म� लोग� को एिनिमया क� जांच म� भाग लेने को कह रहे ह� I एिनिमया एक गंभीर स् वास् थ् य समस् या है जो क� आमतौर पर खराब पोष, ण
+सं�मण, या दीघर्कािलक रोग� के प�रणाम से होता है I यह जांच सरकार के एिनिमया को रोकने और इलाज करने के कायर्�म� को िवकिसत करने म� सहायता करेगी I
+एिनिमया जांच हेतु, हम� अंगुली से रक् त के कुछ बूद� क� आवश् यकता होगी । रक् त का नमुना लेने वाला यं� स् वच् छ और पूरी तरह से सुरिक्षत होगा । यह इस ज�च के पहले
+कभी भी उपयोग म� नही लाया गया है और �त्येक ज�च के बाद इसे नष् ट कर �दया जायेगा I एिनिमया हेतु रक् त का जांच तत् क्षिणक �कया जायेगा और ज�च के प�रणाम से
+आपको तुरन् त ही अवगत करा �दया जायेगा I ज�च प�रणाम को पूणर् तरीके से गोपनीय रखा जायेगा तथा इस सव�क्षण दल के सदस् य� के अलावा अन् य �कसी को भी उसके
+बारे म� नही बताया जायेगा I
+क् या आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए हां अथवा ना कह सकते है, यह आपके िनणर्य के उपर है I
+क् या आप एिनिमया क� ज�च कराना चाह�गे ?",,,,,,,,
+345,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 347)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 347)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 347)",,,,,,
+346,क् या अब आप गभर्वती है ?,"YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DK . . . . . . . . . . . . . . . . . . . . . . . . . 8","YES. . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DK . . . . . . . . . . . . . . . . . . . . . . . . . 8","YES. . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DK . . . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,
+347,"AGE:
+CHECK 302.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 351)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 351)","15-17 YEARS . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . 2
+(GO TO 351)",,,,,,
+348,"MARITAL STATUS:
+CHECK 302.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 351)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 351)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 351)",,,,,,
+349,"ASK CONSENT
+FOR
+BLOOD GLUCOSE
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 309
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+WOMEN
+AGE 15-17.","इस सव�क्षण म,� हम मधुमेह के स् तर क� भी ज�च कर रहे है। य�द उच् च मधुमेह क� ज�च नह� क� गयी तो यह �दय रोग के खतरे और दौरे को बढ़ा सकता है । रक् त म�
+ग् ल् युकोज क� मा�ा ज�च हेत, ुहम� अगुंली से रक् त क� कुछ बुद� क� आवश् यकता होगी। रक् त का नमूना लेनेवाला यं� पूणर् तरी के से स् वच् छ व सुरिक्षत होगा । इसका उपयोग
+पहले कभी नह� �कया गया है और �त् येक ज�च के बाद इसे नष् ट कर �दया जायेगाI इसे ग् लुकोज हेतु रक् त क� ज�च तत् क्षिणक �कया जायेग, ातथा ज�च के प�रणाम से
+आपको (NAME OF ADOLESCENT) तुरन् त ही अवगत करा �दया जाएगा । ज�च प�रणाम को पूणर् तरी के से गोपनीय रखा जाएगा और इस और इस सव�क्षण के
+सदस् य� के अलावा इसे �कसी को नह� बताया जाएगा । मधुमेह क� जांच का प�रणाम आपको �दया जाएगा और साथ ही मधुमेह सूचकांक के अथर् से भी आपको (NAME
+OF ADOLESCENT) अवगत कराया जाएगा । य�द (NAME OF ADOLESCENT) का मधुमेह उच् च होगा, तब हम आपको (NAME OF ADOLESCENT) के
+िलए स् वास् थ् य सेवा या िच�कत् सक से परामशर् लेने क� सलाह द�गे क् य��क इस सव�क्षण म� दौरान हम इससे आगे क� ज�च या इलाज का परामशर् नह� द� सकते ह� ।
+क् या आपको रक् त ग् लुकोज(म धुमेह) क� ज�च के बारे म� कुछ पूछना ह�?
+य�द आपको इस ��कया के बारे म� �कसी भी समय कोई भी �श् न है तो कृपया मुझसे पूछ� ।
+य�द आप चाहे तो (NAME OF ADOLESCENT) क� मधुमेह क� जांच के िलए हां या ना कह सकते है |
+क् या आप अपने (NAME OF ADOLESCENT) इस जांच क� अनुमित द�गे ?",,,,,,,,
+350,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 358)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 358)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 358)",,,,,,
+,,WOMAN 1,WOMAN 2,WOMAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+351,"ASK CONSENT
+FOR BLOOD
+GLUCOSE FROM
+RESPONDENT.","इस सव�क्षण म� हम मधुमेह के स् तर क� भी जांच कर रह� है । य�द उच् च मधुमेह क� ज�च नह� क� गयी तो यह �दय रोग के खतरे और दौरे को बड़ा सकता है । रक् त म�
+ग् लुकोज क� मा�ा जांच हेत,ु हम� अंगुली से रक् त क� कुछ बूद� क� आवश् यकता ह�गी । रक् त का नमूना लेनेवाला यं� पूणर् तरीके से स् वच् छ और सुरिक्षत होगा । इसका
+इस् तेमाल पहले कभी नह� �कया गया तथा �त् येक जांच के बाद इसे फ�क �दया जाएगा । ग् लुकोज हेतु रक् त क� जांच तत् क्षिणक क� जाए, गऔीर जांच प�रणाम से आपको
+तुरन् त ही अवगत करा �दया जाएगा । जांच प�रणाम को पूणर्तया गोपनीय रखा जाएगा और इस सव�क्षण के सदस् य� के अलावा इसके बारे म� �कसी को भी नह� बताया
+जाएगा । मधुमेह जांच का प�रणाम आपको �दया जाएगा और साथ ही मधुमेह सूचकांक के अथर् से भी आपको अवगत कराया जाएगा ।
+क् या आपको रक् त ग् लुकोज(म धुमेह) क� जांच के बारे म� कुछ पूछना है ?
+य�द आपको इस ���या के बारे म� �कसी भी समय कुछ भी पूछना है तो कृपया मुझसे पूछ� । अब आप चाह� तो मधुमेह जांच के िलए हां या ना कह सकते ह� ।
+क् या आप अपने इस जांच क� ��कया क� अनुमित द�गे ?",,,,,,,,
+352,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+(IF REFUSED, GO TO 358)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+(IF REFUSED, GO TO 358)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 302 FOR NEXT
+WOMAN OR, IF NO
+MORE WOMEN,
+GO TO 401)
+(IF REFUSED, GO TO 358)",,,,,,
+353,"आखरी बार कब आपने कुछ
+खाया था ?","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'",,,,,,
+354,"आखरी बार कब आपने
+सादा पानी के अलावा कुछ
+और िपया था ?","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'",,,,,,
+355,"इस सव�क्षण से पहले, क्या
+आपके रक् त ग् लुकोज क�
+कभी जाँच �ई है?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+356,"क्या आपने डॉक्टर, नस,र् या
+एएनएम �ारा दो या अिधक
+अलग-अलग मौक� पर
+बताया �क आपका रक् त
+ग् लुकोज का स्तर अिधक था?","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 358)","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 358)","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 358)",,,,,,
+357,"अपने रक् त ग् लुकोज के स्तर
+को कम करने के िलए, क्या
+अब आप िनधार्�रत दवा ले
+रहे ह?�","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,WOMAN 1,WOMAN 2,WOMAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+358,"CHECK THE
+COVER PAGE:
+IS THE
+HOUSEHOLD
+SELECTED FOR
+DBS COLLECTION?","YES NO
+(GO TO 372)","YES NO
+(GO TO 372)","YES NO
+(GO TO 372)",,,,,,
+359,"AGE:
+CHECK 302.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 363)
+50 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 372)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 363)
+50 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 372)","15-17 YEARS . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . 2
+(GO TO 363)
+50 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 372)",,,,,,
+360,"MARITAL STATUS:
+CHECK 302.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 363)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 363)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 363)",,,,,,
+361,"ASK CONSENT
+FOR
+DBS COLLECTION
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 309
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+WOMEN
+AGE 15-17.","इस सव�क्षण म� हम देश भर के लोग� से मले�रया, HbA1c और िवटािमन डी का परीक्षण करने के िलए कह रहे ह�। मले�रया बुखार का एक सामान्य कारण है और इसका
+इलाज दवा� से �कया जा सकता है। मले�रया रोिगय� म� बुखार या कभी कभी िबना बुखार के मौजूद हो सकता है। मले�रया के �कार का पता लगाना महत्वपूणर् है और
+क्या वतर्मान म� उपलब्ध दवाएं मले�रया वाले �ि�य� के इलाज के िलए �भावी ह�गी। दूसरी ज�च, HbA1c, हीमोग्लोिबन का �कार, तीन महीने के औसत र� ग्लुाकोज
+के स्तर का अनुमान लगाने के िलए �कया जाता है ता�क यह पता लगाया जा सके �क दवा लेने वाले मधुमेह के रोिगय� म� र� ग्लुाकोज के स्तर को िनयंि�त �कया गया है
+या नह�। र� म� िवटािमन डी का स्तर िवटािमन डी क� कमी का पता लगाने के िलए मापा जाता ह,ै जो भारत म� ब�त आम है। िवटािमन डी क� कमी हि�य� क� भंगुरता का
+कारण बनती है और इससे �ैक्चर हो सकते ह�।
+यह जांच रा�ीय स्तर क� �योगशाला� म� �कए जाएंगे तथा उ�त जानकारी �ा� करने के िलए और स्वास्थ्य कायर्�म� को बेहतर बनाने के िलए यह सरकार �ारा इसका
+उपयोग �कया जाएगा। जांच के िलए, हम� उंगली से र� क� कुछ (अिधक) बूंद� क� आवश्यकता होती है। र� लेने के िलए उपयोग �कए जाने वाले उपकरण साफ और पूरी
+तरह से सुरिक्षत ह�। इसका उपयोग पहले कभी नह� �कया गया है और �त्येक परीक्षण के बाद इसे फ�क �दया जाएगा। र�इ के नमूना के साथ नाम नही जोड़े जाने क� वजह
+से हम आपको जांच प�रणाम से अवगत नह� करा सकते है I (NAME OF ADOLESCENT)'s के जांच का प�रणाम कोई अन्यी भी नह� जान पायेगा I बुखार और
+मधुमेह के मामले म� देखभाल के बारे म� जानकारी िनदान और उपचार के िलए िनकटतम स्वास्थ्य देखभाल सुिवधा के िलए एक रेफरल प� के साथ दी जाएगी। िवटािमन डी
+क� कमी को रोकने के तरीक� पर जानकारी भी �दान क� जाएगी।
+क्या् आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए 'हां' अथवा ‘ना’ कह सकते है , यह आपके िनणर्य के उपर है I
+क्या◌ा आप (NAME OF ADOLESCENT) क� जांच क� अनुमित द�गे ?",,,,,,,,
+362,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 372)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 372)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 372)",,,,,,
+363,"ASK CONSENT
+FOR
+DBS COLLECTION
+FROM
+RESPONDENT.","इस सव�क्षण म� हम देश भर के लोग� से मले�रया, HbA1c और िवटािमन डी का परीक्षण करने के िलए कह रहे ह�। मले�रया बुखार का एक सामान्य कारण है और इसका
+इलाज दवा� से �कया जा सकता है। मले�रया रोिगय� म� बुखार या कभी कभी िबना बुखार के मौजूद हो सकता है। मले�रया के �कार का पता लगाना महत्वपूणर् है और
+क्या वतर्मान म� उपलब्ध दवाएं मले�रया वाले �ि�य� के इलाज के िलए �भावी ह�गी। दूसरी ज�च, HbA1c, हीमोग्लोिबन का �कार, तीन महीने के औसत र� ग्लुाकोज
+के स्तर का अनुमान लगाने के िलए �कया जाता है ता�क यह पता लगाया जा सके �क दवा लेने वाले मधुमेह के रोिगय� म� र� ग्लुाकोज के स्तर को िनयंि�त �कया गया है
+या नह�। र� म� िवटािमन डी का स्तर िवटािमन डी क� कमी का पता लगाने के िलए मापा जाता ह,ै जो भारत म� ब�त आम है। िवटािमन डी क� कमी हि�य� क� भंगुरता का
+कारण बनती है और इससे �ैक्चर हो सकते ह�।
+यह जांच रा�ीय स्तर क� �योगशाला� म� �कए जाएंगे तथा उ�त जानकारी �ा� करने के िलए और स्वास्थ्य कायर्�म� को बेहतर बनाने के िलए यह सरकार �ारा इसका
+उपयोग �कया जाएगा। जांच के िलए, हम� उंगली से र� क� कुछ (अिधक) बूंद� क� आवश्यकता होती है। र� लेने के िलए उपयोग �कए जाने वाले उपकरण साफ और पूरी
+तरह से सुरिक्षत ह�। इसका उपयोग पहले कभी नह� �कया गया है और �त्येक परीक्षण के बाद इसे फ�क �दया जाएगा। र�इ के नमूना के साथ नाम नही जोड़े जाने क� वजह
+से हम आपको जांच प�रणाम से अवगत नह� करा सकते है I जांच का प�रणाम कोई अन्य भी नह� जान पायेगा I बुखार और मधुमेह के मामले म� देखभाल के बारे म�
+जानकारी िनदान और उपचार के िलए िनकटतम स्वास्थ्य देखभाल सुिवधा के िलए एक रेफरल प� के साथ दी जाएगी। िवटािमन डी क� कमी को रोकने के तरीक� पर
+जानकारी भी �दान क� जाएगी।
+क्या् आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए 'हां' अथवा ‘ना’ कह सकते है , यह आपके िनणर्य के उपर है I
+क्या आप क� जांच क� अनुमित द�गे ?",,,,,,,,
+364,"CIRCLE THE
+APPROPRIATE
+CODE, SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 372)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 372)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 372)",,,,,,
+365,"AGE:
+CHECK 302.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 369)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 369)","15-17 YEARS . . . . . . . . . . . . . . . . 1
+18-49 YEARS . . . . . . . . . . . . . . . . 2
+(GO TO 369)",,,,,,
+366,"MARITAL STATUS:
+CHECK 302.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 369)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 369)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 369)",,,,,,
+,,WOMAN 1,,,WOMAN 2,,WOMAN 3,,,
+,NAME,NAME,,,NAME,,NAME,,,
+367,"ASK CONSENT FOR
+ADDITIONAL
+TESTING FROM
+PARENT/OTHER
+ADULT IDENTIFIED
+IN 309 AS
+RESPONSIBLE FOR
+NEVER MARRIED
+WOMEN AGE 15-17.","(NAME OF ADOLESCENT) का खून के नमूने क� अित�रक् त जांच या अन् वेषण के िलए( NAME OF AGENCY) �योगशाला म� उसको सं�ह करने क� आपसे
+अनुमित चाहते है । अित�रक् त जांच के बारे म� हम िन��त नह� ह� । इस खून के नमूने के साथ( NAME OF ADOLESCENT) का नाम या कोई पहचान जुड़ा नह�
+रह�गा । य�द आप खून के नमूने क� अितरक् त जांच नह� कराना चाहत, े�फर भी ( NAME OF ADOLESCENT ) इस सव�क्षण म� भाग ले सकते है ।
+क् या आप ( NAME OF ADOLESCENT ) के खून के नमूने क� अित�रक् त जांच के िलए उसको सं�ह करने क� अनुमित द�ग?े",,,,,,,,
+368,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 371)",,,"GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 371)",,"GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED. . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 371)",,,
+369,"ASK CONSENT
+FOR
+ADDITIONAL
+TESTING FROM
+RESPONDENT.","आपके खून के नमूने क� अित�रक् त जांच या अन् वेषण के िलए( NAME OF AGENCY) �योगशाला म� उसको सं�ह करने क� आपसे अनुमित चाहते है । अित�रक् त जांच
+के बारे म� हम िन��त नह� ह� । इस खून के नमूने के साथ नाम या कोई पहचान जुड़ा नह� रह�गा । य�द आप खून के नमूने क� अितरक् त जांच नह� कराना चाहत, े�फर भी
+इस सव�क्षण म� भाग ले सकते है ।
+क् या आपके खून के नमूने क� अित�रक् त जांच के िलए उसको सं�ह करने क� अनुमित द�ग?े",,,,,,,,
+370,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 372)",,,"GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 372)",,"GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 372)",,,
+372,PREPARE EQUIPMENT AND SUPPLIES ONLY FOR THE TEST(S) FOR WHICH CONSENT HAS BEEN OBTAINED AND PROCEED WITH THE TEST(S),,,,,,,,,
+373,"RECORD THE TIME
+OF THE BLOOD
+GLUCOSE TEST","HOURS . MINUTES
+.
+NOT TESTED . . . . . . . . . . . . 9996",,,"HOURS . MINUTES
+.
+NOT TESTED . . . . . . . . . . . . 9996",,"HOURS . MINUTES
+.
+NOT TESTED . . . . . . . . . . . . 9996",,,
+374,"RECORD BLOOD
+GLUCOSE IN MG/DL","MG/DL . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,,"MG/DL . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,"MG/DL . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,,
+375,"RECORD HAEMO-
+GLOBIN LEVEL
+HERE AND IN
+ANAEMIA
+PAMPHLET.",".
+G/DL . . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,,".
+G/DL . . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,".
+G/DL . . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,,
+375A,"CHECK THE
+COVER PAGE: IS
+THE HOUSEHOLD
+SELECTED FOR
+STATE MODULE?","YES NO
+GO TO 378A",,,"YES NO
+GO TO 378A",,"YES NO
+GO TO 378A",,,
+376,BAR CODE LABEL,"PUT THE 1ST BAR CODE
+LABEL HERE.",,,"PUT THE 1ST BAR CODE
+LABEL HERE.
+REFUSED . . . . . . . . . . . . . . 999994
+NOT SELECTED. . . . . . . . . . 999995
+OTHER . . . . . . . . . . . . . . . . . 999996
+PUT THE 2ND BAR CODE LABEL
+ON THE RESPONDENT'S
+FILTER PAPER AND THE 3RD
+ON THE TRANSMITTAL FORM.",,"PUT THE 1ST BAR CODE
+LABEL HERE.
+REFUSED . . . . . . . . . . . . . . 999994
+NOT SELECTED. . . . . . . . . . 999995
+OTHER . . . . . . . . . . . . . . . . 999996
+PUT THE 2ND BAR CODE LABEL
+ON THE RESPONDENT'S
+FILTER PAPER AND THE 3RD
+ON THE TRANSMITTAL FORM.",,,
+,,"REFUSED . . . . . . . . . . . . . . . 999994
+NOT SELECTED . . . . . . . . . . 999995
+OTHER . . . . . . . . . . . . . . . . . 999996
+PUT THE 2ND BAR CODE LABEL
+ON THE RESPONDENT'S
+FILTER PAPER AND THE 3RD
+ON THE TRANSMITTAL FORM.",,,,,,,,
+377,"MARK FILTER
+PAPER CARD
+FOR DIABETES
+TESTING","CHECK 357:
+IF YES, TICK THE ""YES"" ON
+MEDICATION BOX.
+IF NO, TICK THE ""NO"" ON MEDICATION
+BOX.",,,"CHECK 357:
+IF YES, TICK THE ""YES"" ON
+MEDICATION BOX.
+IF NO, TICK THE ""NO"" ON
+MEDICATION BOX.",,"CHECK 357:
+IF YES, TICK THE ""YES"" ON
+MEDICATION BOX.
+IF NO, TICK THE ""NO"" ON
+MEDICATION BOX.",,,
+378,"MARK FILTER
+PAPER CARD FOR
+ADDITIONAL TEST","ADULT RESPONDENT CHECK 370;
+MINOR RESPONDENT CHECK 368
+AND 370.
+IF GRANTED, TICK ""YES"" BOX.
+IF REFUSED TICK ""NO"" BOX.",,,"ADULT RESPONDENT CHECK 370;
+MINOR RESPONDENT CHECK 368
+AND 370.
+IF GRANTED, TICK ""YES"" BOX.
+IF REFUSED TICK ""NO"" BOX.",,"ADULT RESPONDENT CHECK 370;
+MINOR RESPONDENT CHECK 368
+AND 370.
+IF GRANTED, TICK ""YES"" BOX.
+IF REFUSED TICK ""NO"" BOX.",,,
+378A,CHECK 302,"IF AGE 50 OTHER
+AND ABOVE
+GO TO 382",,,"IF AGE 50 OTHER
+AND ABOVE
+GO TO 382",,"IF AGE 50 OTHER
+AND ABOVE
+GO TO 382",,,
+379,"क्या आपन ेकभी
+सवार्इकल क�सर का
+स्क्र��नंग टेस्ट कराया है?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,
+380,"क्या आपन ेकभी स्तन
+क�सर क े�लए स्तन
+पर��ण कराया है?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,
+381,"क्या आपन ेकभी मुख क े
+केन्सर क े�लए ओरल
+कै�वट� का पर��ण
+करवाया है?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,
+382,"GO BACK TO 302 IN NEXT COLUMN OF THIS QUESTIONNAIRE OR IN THE FIRST COLUMN OF AN ADDITIONAL QUESTIONNAIRE;
+IF NO MORE WOMEN, GO TO 401.",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,MAN 1,MAN 2,MAN 3,,,,,,
+401,"NAME
+LINE
+NUMBER
+AGE
+MARITAL
+STATUS","NAME
+LINE
+NUMBER . . . . . . . . . . . .
+AGE . . . . . . . . . . . . . . . . .
+IF AGE 55 AND ABOVE, GO TO 412
+NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2","NAME
+LINE
+NUMBER . . . . . . . . . . . . .
+AGE . . . . . . . . . . . . . . . . .
+IF AGE 55 AND ABOVE, GO TO 412
+NEVER MARRIED . . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2","NAME
+LINE
+NUMBER . . . . . . . . . . . .
+AGE . . . . . . . . . . . . . . . . .
+IF AGE 55 AND ABOVE, GO TO 412
+NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+"402 CHECK THE YES NO YES NO YES NO
+COVER PAGE: IS
+THE HOUSEHOLD
+SELECTED FOR GO TO 407 GO TO 407 GO TO 407
+STATE MODULE?",,,,,,,,,,
+403,"WEIGHT
+IN KILOGRAMS",".
+KG.
+NOT PRESENT . . . . . . . . . . 99994
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW.
+REFUSED . . . . . . . . . . . . . . 99995
+OTHER . . . . . . . . . . . . . . . . . 99996",".
+KG.
+NOT PRESENT . . . . . . . . . . 99994
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW.
+REFUSED . . . . . . . . . . . . . . . 99995
+OTHER . . . . . . . . . . . . . . . . . 99996",".
+KG.
+NOT PRESENT . . . . . . . . . . 99994
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW.
+REFUSED . . . . . . . . . . . . . . . 99995
+OTHER . . . . . . . . . . . . . . . . . 99996",,,,,,
+404,"HEIGHT
+IN CENTIMETRES",".
+CM.
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996",". .
+CM. CM.
+REFUSED . . . . . . . . . . . . . . . . . 9995 REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996 OTHER . . . . . . . . . . . . . . . . . . . 9996",,,,,,,
+405,"WAIST
+CIRCUMFERENCE
+IN CENTIMETRES",".
+CM.
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996",". .
+CM. CM.
+REFUSED . . . . . . . . . . . . . . . . . 9995 REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996 OTHER . . . . . . . . . . . . . . . . . . . 9996",,,,,,,
+406,"HIP
+CIRCUMFERENCE
+IN CENTIMETRES",".
+CM.
+REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996",". .
+CM. CM.
+REFUSED . . . . . . . . . . . . . . . . . 9995 REFUSED . . . . . . . . . . . . . . . . . 9995
+OTHER . . . . . . . . . . . . . . . . . . . 9996 OTHER . . . . . . . . . . . . . . . . . . . 9996",,,,,,,
+407,"AGE:
+CHECK 401.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 412)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 412)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 412)",,,,,,
+408,"MARITAL STATUS:
+CHECK 401.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 412)","NEVER MARRIED . . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 412)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 412)",,,,,,
+409,"RECORD NAME
+OF PARENT/OTHER
+ADULT RESPON-
+SIBLE FOR
+ADOLESCENT.",NAME,NAME,NAME,,,,,,
+410,"ASK CONSENT
+FOR
+BLOOD PRESSURE
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 409
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+MEN
+AGE 15-17.","म�, (NAME OF ADOLESCENT) रक् तचाप क� जांच करना चाहत/ाचाहती �ं I यह तीन बार हर 5 िमनट के अन् तराल पर मापा जायेगाI यह एक नुकसान रिहत
+���या है I यह �कसी व् यि� के उच् च रक् तचाप क� जांच करने के िलए �युक् त होताI हयै �द उच् च रक् तचाप का इलाज नह� �कया गया तो यह कालान् तर म� �दय को भारी
+क्षित प�ंचा सकता है I रक् तचाप के जांच का प�रणाम आपको बता �दया जायेगा और जांच ���या के समाप् त होने के बाद म(N� AME OF ADOLESCENT) रक् तचाप
+सुचकांक का अथर् समझाऊंगा I य�द (NAME OF ADOLESCENT) रक् तचाप उच् च होगा तब हम( NAME OF ADOLESCENT) स् वास् थ् य सेवा या िच�कत् सक से
+परामशर् लेने क� सलाह देग,� क् य��क हम इस सव�क्षण के दौरान इससे आगे क� जांच या इलाज नह� कर सकते हI ै आप �कसी भी समय इस रक् तचाप क� जांच म� नह� भाग लेने
+का िनणर्य कर सकते है I जांच प�रणाम को पूणर्तः गोपनीय रखा जायेगा और सव�क्षण दल सदस् य के अलावा �कसी अन् य को यह जानकारी नह� दी जायेगI ी
+क् या आप कुछ पूछना चाहते ह?ै
+आप चाहे तो (NAME OF ADOLESCENT) के ज�च के िलए ‘हा’ अथवा ‘ना’ कह सकते है I
+क् या आप( NAME OF ADOLESCENT) के रक् तचाप क� जांच क� अनुमित द�ग?े",,,,,,,,
+411,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+IF GRANTED, GO TO 412","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+IF GRANTED, GO TO 412","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+IF GRANTED, GO TO 412",,,,,,
+411A,"CHECK THE
+COVER PAGE: IS
+THE HOUSEHOLD
+SELECTED FOR
+STATE MODULE?","YES NO
+GO TO 446
+GO TO 440","YES NO
+GO TO 446
+GO TO 440","YES NO
+GO TO 446
+GO TO 440",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,MAN 1,MAN 2,MAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+"412 ASK CONSENT म�, आपके रक् तचाप क� जांच करना चाहत/ाचाहती �ं I यह तीन बार हर 5 िमनट के अन् तराल पर मापा जायेगाI यह एक नुकसान रिहत ���या है I यह �कसी व् यि� के
+FOR BLOOD उच् च रक् तचाप क� जांच करने के िलए �युक् त होता Iह यै �द उच् च रक् तचाप का इलाज नह� �कया गया तो यह कालान् तर म� �दय को भारी क्षित प�ंचा सकता Iह रै क् तचाप
+PRESSURE FROM के जांच का प�रणाम आपको बता �दया जायेगा और जांच ���या के समाप् त होने के बाद म� आपको रक् तचाप सुचकांक का अथर् समझाऊंगI ाय �द आपका रक् तचाप उच् च
+RESPONDENT.
+होगा तब हम आपको स् वास् थ् य सेवा या िच�कत् सक से परामशर् लेने क� सलाह ,द क्ेग �य��क हम इस सव�क्षण के दौरान इससे आगे क� जांच या इलाज नह� कर सकते हI ै आप
+�कसी भी समय इस रक् तचाप क� जांच म� नह� भाग लेने का िनणर्य कर सकते हIै जांच प�रणाम को पूणर्तः गोपनीय रखा जायेगा और सव�क्षण दल सदस् य के अलावा �कसी
+अन् य को यह जानकारी नह� दी जायेगीI
+क् या आप कुछ पूछना चाहते ह?ै
+आप चाहे तो ज�च के िलए ‘हा’ अथवा ‘ना’ कह सकते है I
+क् या आप अपने इस रक् तचाप क� जांच क� अनुमित द�ग?े",,,,,,,,,,
+413,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED. . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . . . 4
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW)
+IF GRANTED, GO TO 414","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED. . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . . . . 4
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW)
+IF GRANTED, GO TO 414","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED. . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . . . 4
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW)
+IF GRANTED, GO TO 414",,,,,,
+413A,"CHECK THE
+COVER PAGE: IS
+THE HOUSEHOLD
+SELECTED FOR
+STATE MODULE?","YES NO
+GO TO 446
+GO TO 440","YES NO
+GO TO 446
+GO TO 440","YES NO
+GO TO 446
+GO TO 440",,,,,,
+"414
+a)
+b)
+c)
+d)","रक् तचाप/बी पी मापने से
+पहले म� आपसे कुछ सवाल
+पूछना चा�ंगा/चा�ंगी उन
+चीज़ो के बारे म� जो माप को
+�भािवत कर सकते है।
+िपछले 30 िमनट म� क्या
+आपने िन�िलिखत म� से
+कुछ �क थी:
+कुछ खािय थी ?
+कॉफ�, चाय, कोला या अन् य
+पेय पदाथर् िजसम� कैफेन हो
+उसका सेवन �क थी ?
+कोई तम् बाकू से बने पदाथर्
+का धू�पान �क थी ?
+क् या �कसी अन् य �कार का
+तम् बाकू जैसे गुटख,ा
+तम् बाकूवाला पान मसाला
+या अन्य चबानेवाला या
+सूंघनेवाला तम् बाकू का सेवन
+�क थी?","YES NO
+EATEN . . . . . . . . . . . . 1 2
+HAD CAFFEINATED
+DRINK. . . . . . . . . . . . 1 2
+SMOKED. . . . . . . . . . . . 1 2
+OTHER TOBACCO . . . 1 2","YES NO
+EATEN . . . . . . . . . . . . 1 2
+HAD CAFFEINATED
+DRINK. . . . . . . . . . . . 1 2
+SMOKED. . . . . . . . . . . . 1 2
+OTHER TOBACCO . . . 1 2","YES NO
+EATEN . . . . . . . . . . . . 1 2
+HAD CAFFEINATED
+DRINK. . . . . . . . . . . . 1 2
+SMOKED. . . . . . . . . . . . 1 2
+OTHER TOBACCO . . . 1 2",,,,,,
+415,"क् या म� रक् तचाप मापने क�
+���या शु� क�? म� आपके
+ब�ह के प�रिध क� माप से
+शु�वात करता/करती �ं
+ता�क म� सुिनि�त हो जांऊ
+क� म� सही उपकरण का
+उपयोग कर रहा/रही �ँ ।","ARM CIRCUMFERENCE
+(IN CENTIMETRES) .
+MEASURE THE CIRCUMFERENCE OF
+THE RESPONDENT'S ARM MIDWAY
+BETWEEN THE ELBOW AND THE
+SHOULDER. RECORD THE
+MEASUREMENT IN CENTIMETRES.","ARM CIRCUMFERENCE
+(IN CENTIMETRES) . .
+MEASURE THE CIRCUMFERENCE OF
+THE RESPONDENT'S ARM MIDWAY
+BETWEEN THE ELBOW AND THE
+SHOULDER. RECORD THE
+MEASUREMENT IN CENTIMETRES.","ARM CIRCUMFERENCE
+(IN CENTIMETRES) . .
+MEASURE THE CIRCUMFERENCE OF
+THE RESPONDENT'S ARM MIDWAY
+BETWEEN THE ELBOW AND THE
+SHOULDER. RECORD THE
+MEASUREMENT IN CENTIMETRES.",,,,,,
+416,"USE THE ARM
+CIRCUMFERENCE
+MEASUREMENT TO
+SELECT THE
+APPROPRIATE
+BLOOD PRESSURE
+MONITOR CUFF
+SIZE.","SMALL: 17 CM – 22 CM . . . . . . . . . . 1
+MEDIUM: 23 CM – 31 CM . . . . . . . . 2
+LARGE: 32 CM – 42 CM . . . . . . . . . . 3","SMALL: 17 CM – 22 CM . . . . . . . . . . 1
+MEDIUM: 23 CM – 31 CM . . . . . . . . 2
+LARGE: 32 CM – 42 CM . . . . . . . . . . 3","SMALL: 17 CM – 22 CM . . . . . . . . . . 1
+MEDIUM: 23 CM – 31 CM . . . . . . . . 2
+LARGE: 32 CM – 42 CM . . . . . . . . . . 3",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,MAN 1,,,MAN 2,,,MAN 3,,
+,NAME,NAME,,,NAME,,,NAME,,
+417,"RECORD TIME
+OF FIRST
+BP READING","HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,
+,,,,,,,,,,
+418,"TAKE THE FIRST
+BLOOD PRESSURE
+READING. RECORD
+THE SYSTOLIC AND
+DIASTOLIC
+PRESSURE.","FIRST BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 440)",,,"FIRST BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 440)",,,"FIRST BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 440)",,
+419,"इस सव�क्षण के पहले क् या
+कभी आपका रक् तचाप मापा
+गया ह?ै","YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,
+420,"क्या दो या अिधक बार
+�कसी डॉक्टर , नसर् या
+एएनएम ने आपको बताया
+�क आपको अितरक् तदाब
+(हाइपरट�शन) या उ�
+रक्चचाप ह?ै","YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 422)",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 422)",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 422)",,
+421,"अपने रक् तचाप को कम
+करने के िलए क् या अब आप
+िनधार्�रत दवा ले रहे है ?","YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,
+422,CHECK THAT IT HAS BEEN AT LEAST 5 MINUTES BEFORE TAKING THE SECOND BLOOD PRESSURE MEASUREMENT,,,,,,,,,
+423,"क् या म� इस समय आपका
+रक् तचाप माप सकता/सकती
+�?ं","YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 434)",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 434)",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 434)",,
+424,"RECORD TIME
+OF SECOND
+BP READING","HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,
+,,,,,,,,,,
+425,"TAKE THE SECOND
+BLOOD PRESSURE
+READING. RECORD
+THE SYSTOLIC AND
+DIASTOLIC
+PRESSURE.","SECOND BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 434)",,,"SECOND BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 434)",,,"SECOND BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 434)",,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,MAN 1,,,MAN 2,,,MAN 3,,
+,NAME,NAME,,,NAME,,,NAME,,
+426,CHECK THAT IT HAS BEEN AT LEAST 5 MINUTES BEFORE TAKING THE THIRD BLOOD PRESSURE MEASUREMENT,,,,,,,,,
+427,"क् या म� इस समय आपका
+रक् तचाप माप सकता/सकती
+�?ं","YES. . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 436)",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 436)",,,"YES. . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 436)",,
+428,"RECORD TIME
+OF THIRD
+BP READING","HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,,"HOURS MINUTES
+:",,
+,,,,,,,,,,
+429,"TAKE THE THIRD
+BLOOD PRESSURE
+READING. RECORD
+THE SYSTOLIC AND
+DIASTOLIC
+PRESSURE.","THIRD BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 436)",,,"THIRD BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 436)",,,"THIRD BP MEASURE
+SYSTOLIC . . . . . . . . . .
+DIASTOLIC . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 994
+TECHNICAL PROBLEMS . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+(IF NOT MEASURED, GO TO 436)",,
+430,"RECORD THE SUM
+OF THE SYSTOLIC
+MEASURES FROM
+425 AND 429.","SUM
+SYSTOLIC",,,"SUM
+SYSTOLIC",,,"SUM
+SYSTOLIC",,
+431,"CALCULATE THE
+AVERAGE SYSTOLIC
+PRESSURES BY
+DIVIDING THE SUM
+IN 430 BY 2.","AVERAGE
+SYSTOLIC
+CIRCLE IN 438",,,"AVERAGE
+SYSTOLIC
+CIRCLE IN 438",,,"AVERAGE
+SYSTOLIC
+CIRCLE IN 438",,
+432,"RECORD THE SUM
+OF THE DIASTOLIC
+MEASURES FROM
+425 AND 429.","SUM
+DIASTOLIC",,,"SUM
+DIASTOLIC",,,"SUM
+DIASTOLIC",,
+433,"CALCULATE THE
+AVERAGE
+DIASTOLIC
+PRESSURES BY
+DIVIDING THE SUM
+IN 432 BY 2.","AVERAGE
+DIASTOLIC
+CIRCLE IN 438
+AND SKIP TO 438",,,"AVERAGE
+DIASTOLIC
+CIRCLE IN 438
+AND SKIP TO 438",,,"AVERAGE
+DIASTOLIC
+CIRCLE IN 438
+AND SKIP TO 438",,
+433A,"IF ONLY ONE MEASUREMENT WAS TAKEN, RECORD THE FIRST SYSTOLIC AND DIASTOLIC NUMBERS HERE.",,,,,,,,,
+434,"RECORD THE
+SYSTOLIC
+MEASURE FROM
+418.","SYSTOLIC
+CIRCLE IN 438",,,"SYSTOLIC
+CIRCLE IN 438",,,"SYSTOLIC
+CIRCLE IN 438",,
+435,"RECORD THE
+DIASTOLIC
+MEASURE FROM
+418.","DIASTOLIC
+CIRCLE IN 438
+AND SKIP TO 438",,,"DIASTOLIC
+CIRCLE IN 438
+AND SKIP TO 438",,,"DIASTOLIC
+CIRCLE IN 438
+AND SKIP TO 438",,
+435A,"IF ONLY TWO MEASUREMENTS WERE TAKEN, RECORD THE SECOND SYSTOLIC AND DIASTOLIC NUMBERS HERE.",,,,,,,,,
+436,"RECORD THE
+SYSTOLIC
+MEASURE FROM
+425.","SYSTOLIC
+CIRCLE IN 438",,,"SYSTOLIC
+CIRCLE IN 438",,,"SYSTOLIC
+CIRCLE IN 438",,
+437,"RECORD THE
+DIASTOLIC
+MEASURE FROM
+425.","DIASTOLIC
+CIRCLE IN 438",,,"DIASTOLIC
+CIRCLE IN 438",,,"DIASTOLIC
+CIRCLE IN 438",,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,MAN 1,,MAN 2,,MAN 3,,,,
+,NAME,NAME,,NAME,,NAME,,,,
+438,"CIRCLE THE SINGLE
+NUMBER WHERE
+THE AVERAGE
+DIASTOLIC AND
+SYSTOLIC
+MEASURES MEET.
+AVERAGE
+SYSTOLIC
+<120
+120-129
+130-139
+140-159
+160-179
+≥180","AVERAGE DIASTOLIC
+80- 85- 90- 100-
+<80 ≥110
+84 89 99 109
+1 2 3 4 5 6
+2 2 3 4 5 6
+3 3 3 4 5 6
+4 4 4 4 5 6
+5 5 5 5 5 6
+6 6 6 6 6 6",,"AVERAGE DIASTOLIC
+80- 85- 90- 100-
+<80 ≥110
+84 89 99 109
+1 2 3 4 5 6
+2 2 3 4 5 6
+3 3 3 4 5 6
+4 4 4 4 5 6
+5 5 5 5 5 6
+6 6 6 6 6 6",,"AVERAGE DIASTOLIC
+80- 85- 90- 100-
+<80 ≥110
+84 89 99 109
+1 2 3 4 5 6
+2 2 3 4 5 6
+3 3 3 4 5 6
+4 4 4 4 5 6
+5 5 5 5 5 6
+6 6 6 6 6 6",,,,
+439,"RECORD THE NUMBER YOU CIRCLED IN 438 IN THE CHART BELOW. THEN USE THE INSTRUCTIONS TO THE RIGHT OF THAT NUMBER TO
+COMPLETE A BLOOD PRESSURE REPORT AND REFERRAL FORM FOR THE RESPONDENT. GIVE THE FORM TO THE RESPONDENT AND ANSWER
+ANY QUESTIONS.
+NUMBER RESPONDENT'S BLOOD PRESSURE CONSULT HEALTH PROVIDER TO CHECK
+CIRCLED IN 438 CATEGORY BLOOD PRESSURE WITHIN:
+1 NORMAL (OPTIMAL) 1 YEAR
+2 NORMAL (MILDLY HIGH) 1 YEAR
+3 NORMAL (MODERATELY HIGH) 2 MONTHS
+4 ABNORMAL (MILDLY ELEVATED) 1 MONTH
+5 ABNORMAL (MODERATELY ELEVATED) 1 WEEK
+6 ABNORMAL (SEVERELY ELEVATED) IMMEDIATELY",,,,,,,,,
+,,"NUMBER
+CIRCLED IN 438
+1
+2
+3
+4
+5
+6","RESPONDENT'S BLOOD PRESSURE
+CATEGORY",,"CONSULT HEALTH PROVIDER TO CHECK
+BLOOD PRESSURE WITHIN:",,,,,
+,,,NORMAL (OPTIMAL),,1 YEAR,,,,,
+,,,NORMAL (MILDLY HIGH),,1 YEAR,,,,,
+,,,NORMAL (MODERATELY HIGH),,2 MONTHS,,,,,
+,,,ABNORMAL (MILDLY ELEVATED),,1 MONTH,,,,,
+,,,ABNORMAL (MODERATELY ELEVATED),,1 WEEK,,,,,
+,,,ABNORMAL (SEVERELY ELEVATED),,IMMEDIATELY,,,,,
+439A,,"IF 438=6 OTHER
+GO TO 477A",,"IF 438=6 OTHER
+GO TO 477A",,"IF 438=6 OTHER
+GO TO 477A",,,,
+439B,"CHECK THE
+COVER PAGE: IS
+THE HOUSEHOLD
+SELECTED FOR
+STATE MODULE?","YES NO
+GO TO 446",,"YES NO
+GO TO 446",,"YES NO
+GO TO 446",,,,
+440,"AGE:
+CHECK 401.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 444)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 450)",,"15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 444)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 450)",,"15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 444)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 450)",,,,
+441,"MARITAL STATUS:
+CHECK 401.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 444)",,"NEVER MARRIED . . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 444)",,"NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 444)",,,,
+442,"ASK CONSENT
+FOR
+ANAEMIA TEST
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 409
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+MEN
+AGE 15-17.","इस सव�क्षण म,� हम पुरे देश म� लोग� को एिनिमया क� जांच म� भाग लेने को कह रहे ह� I एिनिमया एक गंभीर स् वास् थ् य समस् या है जो क� आमतौर पर खराब पोष, सणं�मण,
+या दीघर्कािलक रोग� के प�रणाम से होता है I यह जांच सरकार के एिनिमया को रोकने और इलाज करने के कायर्�म� को िवकिसत करने म� सहायता करेगीI एिनिमया जांच
+हेतु, हम� अंगुली से रक् त के कुछ बूद� क� आवश् यकता होगी। रक् त का नमुना लेनेवाला यं� स् वच् छ और पूरी तरह से सुरिक्षत होगा। यह इस ज�च से पहले कभी भी उपयोग
+नही लाया गया है और �त्येक ज�च के बाद इसे नष् ट कर �दया जायेगाI एिनिमया हेतु रक् त का जांच तत् क्षिणक �कया जायेगा और ज�च के प�रणाम से आपको औ(रN AME
+OF ADOLESCENT) को तुरन् त ही अवगत करा �दया जायेगाI ज�च प�रणाम को पूणर् तरीके से गोपनीय रखा जायेगा तथा इस सव�क्षण दल के सदस् य� के अलावा अन् य
+�कसी को भी उसके बारे म� नही बताया जायेगा I
+क् या आप कुछ पूछना चाहते ह?ै
+आप चाहे तो (NAME OF ADOLESCENT) के ज�च के िलए ‘हा’ अथवा ‘ना’ कह सकते है I
+क् या आप( NAME OF ADOLESCENT) का एिनिमया क� जांच क� अनुमित द�गे ?",,,,,,,,
+443,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 448)",,"GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 448)",,"GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 448)",,,,
+,,MAN 1,MAN 2,MAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+444,"ASK CONSENT
+FOR
+ANAEMIA TEST
+FROM
+RESPONDENT.","इस सव�क्षण म,� हम पुरे देश म� लोग� को एिनिमया क� जांच म� भाग लेने को कह रहे ह� I एिनिमया एक गंभीर स् वास् थ् य समस् या है जो क� आमतौर पर खराब पोष, सणं�मण,
+या दीघर्कािलक रोग� के प�रणाम से होता है I यह जांच सरकार के एिनिमया को रोकने और इलाज करने के कायर्�म� को िवकिसत करने म� सहायता करेगीI एिनिमया जांच
+हेतु, हम� अंगुली से रक् त के कुछ बूद� क� आवश् यकता होगी । रक् त का नमुना लेने वाला यं� स् वच् छ और पूरी तरह से सुरिक्षत होगा । यह इस ज�च के पहले कभी भी उपयो
+म� नही लाया गया है और �त्येक ज�च के बाद इसे नष् ट कर �दया जायेगाI एिनिमया हेतु रक् त का जांच तत् क्षिणक �कया जायेगा और ज�च के प�रणाम से आपको तुरन् त ही
+अवगत करा �दया जायेगा I ज�च प�रणाम को पूणर् तरीके से गोपनीय रखा जायेगा तथा इस सव�क्षण दल के सदस् य� के अलावा अन् य �कसी को भी उसके बारे म� नही बताया
+जायेगा I
+क् या आप कुछ पूछना चाहते ह?ै
+आप चाहे तो इस ज�च के िलए हां अथवा ना कह सकते ह,ै यह आपके िनणर्य के उपर है I
+क् या आप एिनिमया क� ज�च कराना चाह�ग?े",,,,,,,,
+445,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)",,,,,,
+446,"AGE:
+CHECK 401.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 450)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 450)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 450)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 450)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 450)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 450)",,,,,,
+447,"MARITAL STATUS:
+CHECK 401.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 450)","NEVER MARRIED . . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 450)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 450)",,,,,,
+448,"ASK CONSENT
+FOR
+BLOOD GLUCOSE
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 409
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+MEN
+AGE 15-17.","इस सव�क्षण म,� हम मधुमेह के स् तर क� भी ज�च कर रहे है। य�द उच् च मधुमेह क� ज�च नह� क� गयी तो यह �दय रोग के खतरे और दौरे को बढ़ा सकता है । रक् त म� ग् ल् युक
+क� मा�ा ज�च हेत,ु हम� अगुंली से रक् त क� कुछ बुद� क� आवश् यकता होगी। रक् त का नमूना लेनेवाला यं� पूणर् तरी के से स् वच् छ व सुरिक्षत होगा । इसका उपयोग पहले क
+नह� �कया गया है और �त् येक ज�च के बाद इसे नष् ट कर �दया जायेगIा इसे ग् लुकोज हेतु रक् त क� ज�च तत् क्षिणक �कया जाय,ेग ताथा ज�च के प�रणाम से आपको (NAME
+OF ADOLESCENT) तुरन् त ही अवगत करा �दया जाएगा । ज�च प�रणाम को पूणर् तरी के से गोपनीय रखा जाएगा और इस और इस सव�क्षण के सदस् य� के अलावा इसे
+�कसी को नह� बताया जाएगा । मधुमेह क� जांच का प�रणाम आपको �दया जाएगा और साथ ही मधुमेह सूचकांक के अथर् से भी आपको( NAME OF ADOLESCENT)
+अवगत कराया जाएगा । य�द (NAME OF ADOLESCENT) का मधुमेह उच् च होगा, तब हम आपको (NAME OF ADOLESCENT) के िलए स् वास् थ् य सेवा या
+िच�कत् सक से परामशर् लेने क� सलाह द�गे क् य��क इस सव�क्षण म� दौरान हम इससे आगे क� ज�च या इलाज का परामशर् नह� द� सकते ह� ।
+क् या आपको रक् त ग् लुकोज(म धुमेह) क� ज�च के बारे म� कुछ पूछना ह?�
+य�द आपको इस ��कया के बारे म� �कसी भी समय कोई भी �श् न है तो कृपया मुझसे पूछ� ।
+य�द आप चाहे तो (NAME OF ADOLESCENT) क� मधुमेह क� जांच के िलए हां या ना कह सकते है |
+क् या आप अपन(े NAME OF ADOLESCENT) इस जांच क� अनुमित द�गे ?",,,,,,,,
+449,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 457)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 457)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+(IF REFUSED, GO TO 457)",,,,,,
+,,MAN 1,MAN 2,MAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+450,"ASK CONSENT
+FOR BLOOD
+GLUCOSE FROM
+RESPONDENT.","इस सव�क्षण म� हम मधुमेह के स् तर क� भी जांच कर रह� है । य�द उच् च मधुमेह क� ज�च नह� क� गयी तो यह �दय रोग के खतरे और दौरे को बड़ा सकता है । रक् त म� ग् लुको
+क� मा�ा जांच हेत,ु हम� अंगुली से रक् त क� कुछ बूद� क� आवश् यकता ह�गी । रक् त का नमूना लेनेवाला यं� पूणर् तरीके से स् वच् छ और सुरिक्षत होगा । इसका इस् तेमाल पह
+कभी नह� �कया गया तथा �त् येक जांच के बाद इसे फ�क �दया जाएगा । ग् लुकोज हेतु रक् त क� जांच तत् क्षिणक क� जाए, गऔीर जांच प�रणाम से आपको तुरन् त ही अवगत करा
+�दया जाएगा । जांच प�रणाम को पूणर्तया गोपनीय रखा जाएगा और इस सव�क्षण के सदस् य� के अलावा इसके बारे म� �कसी को भी नह� बताया जाएगा । मधुमेह जांच का
+प�रणाम आपको �दया जाएगा और साथ ही मधुमेह सूचकांक के अथर् से भी आपको अवगत कराया जाएगा ।
+क् या आपको रक् त ग् लुकोज(म धुमेह) क� जांच के बारे म� कुछ पूछना है ?
+य�द आपको इस ���या के बारे म� �कसी भी समय कुछ भी पूछना है तो कृपया मुझसे पूछ� । अब आप चाह� तो मधुमेह जांच के िलए हां या ना कह सकते ह� ।
+क् या आप अपने इस जांच क� ��कया क� अनुमित द�ग?े",,,,,,,,
+451,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW.
+(IF REFUSED, GO TO 457)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW.
+(IF REFUSED, GO TO 457)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) . 3
+(SIGN)
+NOT PRESENT . . . . . . . . . . 4
+(GO TO 402 FOR NEXT
+MAN OR, IF NO
+MORE MEN,
+END INTERVIEW.
+(IF REFUSED, GO TO 457)",,,,,,
+452,"आखरी बार कब आपने कुछ
+खाया था ?","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'",,,,,,
+453,"आखरी बार कब आपने
+सादा पानी के अलावा कुछ
+और िपया था ?","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'","HOURS AGO . . . . . . . .
+IF LESS THAN 1 HOUR, RECORD '00'",,,,,,
+454,"इस सव�क्षण से पहल,े क्या
+आपके रक् त ग् लुकोज क�
+कभी जाँच �ई ह?ै","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+455,"क्या आपने डॉक्टर, नस,र् या
+एएनएम �ारा दो या अिधक
+अलग-अलग मौक� पर
+बताया �क आपका रक् त
+ग् लुकोज का स्तर अिधक थ?ा","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 457)","YES . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 457)","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 457)",,,,,,
+456,"अपने रक् त ग् लुकोज के स्तर
+को कम करने के िलए, क्या
+अब आप िनधार्�रत दवा ले
+रहे ह?�","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+457,"CHECK THE
+COVER PAGE:
+IS THE
+HOUSEHOLD
+SELECTED FOR
+DBS COLLECTION?","YES NO
+(GO TO 471)","YES NO
+(GO TO 471)","YES NO
+(GO TO 471)",,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,MAN 1,MAN 2,MAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+458,"AGE:
+CHECK 401.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 462)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 471)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 462)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 471)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 462)
+55 YEARS AND ABOVE . . . . . . . . 3
+(GO TO 471)",,,,,,
+459,"MARITAL STATUS:
+CHECK 401.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 462)","NEVER MARRIED . . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 462)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 462)",,,,,,
+460,"ASK CONSENT
+FOR
+DBS COLLECTION
+FROM PARENT/
+OTHER ADULT
+IDENTIFIED IN 409
+AS RESPONSIBLE
+FOR
+NEVER MARRIED
+MEN
+AGE 15-17.","इस सव�क्षण म� हम देश भर के लोग� से मले�रया, HbA1c और िवटािमन डी का परीक्षण करने के िलए कह रहे ह�। मले�रया बुखार का एक सामान्य कारण है और इसका
+इलाज दवा� से �कया जा सकता है। मले�रया रोिगय� म� बुखार या कभी कभी िबना बुखार के मौजूद हो सकता है। मले�रया के �कार का पता लगाना महत्वपूणर् है और क्या
+वतर्मान म� उपलब्ध दवाएं मले�रया वाले �ि�य� के इलाज के िलए �भावी ह�गी। दूसरी ज�च, HbA1c, हीमोग्लोिबन का �कार, तीन महीने के औसत र� ग्लुाकोज के
+स्तर का अनुमान लगाने के िलए �कया जाता है ता�क यह पता लगाया जा सके �क दवा लेने वाले मधुमेह के रोिगय� म� र� ग्लुाकोज के स्तर को िनयंि�त �कया गया है या
+नह�। र� म� िवटािमन डी का स्तर िवटािमन डी क� कमी का पता लगाने के िलए मापा जाता ह,ै जो भारत म� ब�त आम है। िवटािमन डी क� कमी हि�य� क� भंगुरता का
+कारण बनती है और इससे �ैक्चर हो सकते ह�।
+यह जांच रा�ीय स्तर क� �योगशाला� म� �कए जाएंगे तथा उ�त जानकारी �ा� करने के िलए और स्वास्थ्य कायर्�म� को बेहतर बनाने के िलए यह सरकार �ारा इसका
+उपयोग �कया जाएगा। जांच के िलए, हम� उंगली से र� क� कुछ (अिधक) बूंद� क� आवश्यकता होती है। र� लेने के िलए उपयोग �कए जाने वाले उपकरण साफ और पूरी
+तरह से सुरिक्षत ह�। इसका उपयोग पहले कभी नह� �कया गया है और �त्येक परीक्षण के बाद इसे फ�क �दया जाएगा। र�इ के नमूना के साथ नाम नही जोड़े जाने क� वजह से
+हम आपको जांच प�रणाम से अवगत नह� करा सकते है I (NAME OF ADOLESCENT)'s के जांच का प�रणाम कोई अन्यी भी नह� जान पायेगा I बुखार और मधुमेह के
+मामले म� देखभाल के बारे म� जानकारी िनदान और उपचार के िलए िनकटतम स्वास्थ्य देखभाल सुिवधा के िलए एक रेफरल प� के साथ दी जाएगी। िवटािमन डी क� कमी
+को रोकने के तरीक� पर जानकारी भी �दान क� जाएगी।
+क्या् आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए 'हा'ं अथवा ‘ना’ कह सकते है , यह आपके िनणर्य के उपर है I
+क्या◌ा आप (NAME OF ADOLESCENT) क� जांच क� अनुमित द�गे ?",,,,,,,,
+461,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)",,,,,,
+462,"ASK CONSENT
+FOR
+DBS COLLECTION
+FROM
+RESPONDENT.","इस सव�क्षण म� हम देश भर के लोग� से मले�रया, HbA1c और िवटािमन डी का परीक्षण करने के िलए कह रहे ह�। मले�रया बुखार का एक सामान्य कारण है और इसका
+इलाज दवा� से �कया जा सकता है। मले�रया रोिगय� म� बुखार या कभी कभी िबना बुखार के मौजूद हो सकता है। मले�रया के �कार का पता लगाना महत्वपूणर् है और क्या
+वतर्मान म� उपलब्ध दवाएं मले�रया वाले �ि�य� के इलाज के िलए �भावी ह�गी। दूसरी ज�च, HbA1c, हीमोग्लोिबन का �कार, तीन महीने के औसत र� ग्लुाकोज के
+स्तर का अनुमान लगाने के िलए �कया जाता है ता�क यह पता लगाया जा सके �क दवा लेने वाले मधुमेह के रोिगय� म� र� ग्लुाकोज के स्तर को िनयंि�त �कया गया है या
+नह�। र� म� िवटािमन डी का स्तर िवटािमन डी क� कमी का पता लगाने के िलए मापा जाता ह,ै जो भारत म� ब�त आम है। िवटािमन डी क� कमी हि�य� क� भंगुरता का
+कारण बनती है और इससे �ैक्चर हो सकते ह�।
+यह जांच रा�ीय स्तर क� �योगशाला� म� �कए जाएंगे तथा उ�त जानकारी �ा� करने के िलए और स्वास्थ्य कायर्�म� को बेहतर बनाने के िलए यह सरकार �ारा इसका
+उपयोग �कया जाएगा। जांच के िलए, हम� उंगली से र� क� कुछ (अिधक) बूंद� क� आवश्यकता होती है। र� लेने के िलए उपयोग �कए जाने वाले उपकरण साफ और पूरी
+तरह से सुरिक्षत ह�। इसका उपयोग पहले कभी नह� �कया गया है और �त्येक परीक्षण के बाद इसे फ�क �दया जाएगा। र�इ के नमूना के साथ नाम नही जोड़े जाने क� वजह से
+हम आपको जांच प�रणाम से अवगत नह� करा सकते है I जांच का प�रणाम कोई अन्य भी नह� जान पायेगा I बुखार और मधुमेह के मामले म� देखभाल के बारे म� जानकारी
+िनदान और उपचार के िलए िनकटतम स्वास्थ्य देखभाल सुिवधा के िलए एक रेफरल प� के साथ दी जाएगी। िवटािमन डी क� कमी को रोकने के तरीक� पर जानकारी भी
+�दान क� जाएगी।
+क्या् आप कुछ पूछना चाहते है ?
+आप चाहे तो इस ज�च के िलए 'हा'ं अथवा ‘ना’ कह सकते है , यह आपके िनणर्य के उपर है I
+क्या आप क� जांच क� अनुमित द�गे ?",,,,,,,,
+463,"CIRCLE THE
+APPROPRIATE
+CODE, SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)",,,,,,
+464,"AGE:
+CHECK 401.","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 468)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 468)","15-17 YEARS . . . . . . . . . . . . . . . . . 1
+18-54 YEARS . . . . . . . . . . . . . . . . . 2
+(GO TO 468)",,,,,,
+465,"MARITAL STATUS:
+CHECK 401.","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 468)","NEVER MARRIED . . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 468)","NEVER MARRIED . . . . . . . . . . . . 1
+OTHER . . . . . . . . . . . . . . . . . . . . . 2
+(GO TO 468)",,,,,,
+,,MAN 1,MAN 2,MAN 3,,,,,,
+,NAME,NAME,NAME,NAME,,,,,,
+466,"ASK CONSENT
+FOR ADDITIONAL
+TESTING FROM
+PARENT/OTHER
+ADULT IDENTIFIED
+IN 409 AS
+RESPONSIBLE
+FOR NEVER
+MARRIED MEN
+AGE 15-17.","(NAME OF ADOLESCENT) का खून के नमूने क� अित�रक् त जांच या अन् वेषण के िलए(N AME OF AGENCY) �योगशाला म� उसको सं�ह करने क� आपसे
+अनुमित चाहते है । अित�रक् त जांच के बारे म� हम िन��त नह� ह� । इस खून के नमूने के साथ( NAME OF ADOLESCENT) का नाम या कोई पहचान जुड़ा नह� रह�गा
+। य�द आप खून के नमूने क� अितरक् त जांच नह� कराना चाहत, े�फर भी ( NAME OF ADOLESCENT ) इस सव�क्षण म� भाग ले सकते है ।
+क् या आप( NAME OF ADOLESCENT ) के खून के नमूने क� अित�रक् त जांच के िलए उसको सं�ह करने क� अनुमित द�ग?े",,,,,,,,
+467,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 470)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 470)","GRANTED (SIGNED) . . . . . . . . 1
+PARENT/OTHER RESPONSIBLE
+ADULT REFUSED . . . . . . . . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 470)",,,,,,
+468,"ASK CONSENT
+FOR
+ADDITIONAL
+TESTING, FROM
+RESPONDENT.","आपके खून के नमूने क� अित�रक् त जांच या अन् वेषण के िलए(N AME OF AGENCY) �योगशाला म� उसको सं�ह करने क� आपसे अनुमित चाहते है । अित�रक् त जांच
+के बारे म� हम िन��त नह� ह� । इस खून के नमूने के साथ नाम या कोई पहचान जुड़ा नह� रह�गा । य�द आप खून के नमूने क� अितरक् त जांच नह� कराना चाहत, े�फर भी
+इस सव�क्षण म� भाग ले सकते है ।
+क् या आपके खून के नमूने क� अित�रक् त जांच के िलए उसको सं�ह करने क� अनुमित द�ग?े",,,,,,,,
+469,"CIRCLE THE
+APPROPRIATE
+CODE AND
+SIGN
+YOUR NAME.","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)","GRANTED (SIGNED) . . . . . . . . 1
+RESPONDENT REFUSED . . . 2
+GRANTED (NO SIGNATURE) 3
+(SIGN)
+(IF REFUSED, GO TO 471)",,,,,,
+471,PREPARE EQUIPMENT AND SUPPLIES ONLY FOR THE TEST(S) FOR WHICH CONSENT HAS BEEN OBTAINED AND PROCEED WITH THE TEST(S),,,,,,,,,
+472,"RECORD THE
+TIME OF THE
+BLOOD
+GLUCOSE TEST","HOURS . MINUTES
+.
+NOT TESTED . . . . . . . . 9996","HOURS . MINUTES
+.
+NOT TESTED . . . . . . . . 9996","HOURS . MINUTES
+.
+NOT TESTED . . . . . . . . 9996",,,,,,
+473,"RECORD BLOOD
+GLUCOSE IN
+MG/DL","MG/DL. . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998","MG/DL. . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . . 998","MG/DL. . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,,,,,
+473A,"CHECK THE
+COVER PAGE: IS
+THE HOUSEHOLD
+SELECTED FOR
+STATE MODULE?","YES NO
+GO TO 479","YES NO
+GO TO 479","YES NO
+GO TO 479",,,,,,
+474,"RECORD HAEMO-
+GLOBIN LEVEL
+HERE AND IN
+ANAEMIA
+PAMPHLET.",".
+G/DL . . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",".
+G/DL . . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . . 998",".
+G/DL . . . . . . . . . . . .
+REFUSED . . . . . . . . . . . . . . . . . 995
+OTHER . . . . . . . . . . . . . . . . . . . 996
+NOT TESTED . . . . . . . . . . . . 998",,,,,,
+475,BAR CODE LABEL,"PUT THE 1ST BAR CODE
+LABEL HERE.","PUT THE 1ST BAR CODE
+LABEL HERE.
+REFUSED . . . . . . . . . . . . . . . 999994
+NOT SELECTED . . . . . . . . . . 999995
+OTHER . . . . . . . . . . . . . . . . . 999996
+PUT THE 2ND BAR CODE LABEL
+ON THE RESPONDENT'S
+FILTER PAPER AND THE 3RD
+ON THE TRANSMITTAL FORM.","PUT THE 1ST BAR CODE
+LABEL HERE.
+REFUSED . . . . . . . . . . . . . . . 999994
+NOT SELECTED . . . . . . . . . . 999995
+OTHER . . . . . . . . . . . . . . . . . 999996
+PUT THE 2ND BAR CODE LABEL
+ON THE RESPONDENT'S
+FILTER PAPER AND THE 3RD
+ON THE TRANSMITTAL FORM.",,,,,,
+,,"REFUSED . . . . . . . . . . . . . . 999994
+NOT SELECTED . . . . . . . . . . 999995
+OTHER . . . . . . . . . . . . . . . . . 999996
+PUT THE 2ND BAR CODE LABEL
+ON THE RESPONDENT'S
+FILTER PAPER AND THE 3RD
+ON THE TRANSMITTAL FORM.",,,,,,,,
+476,"MARK FILTER
+PAPER CARD
+FOR DIABETES
+TESTING","CHECK 456:
+IF YES, TICK THE ""YES"" ON
+MEDICATION BOX.
+IF NO, TICK THE ""NO"" ON
+MEDICATION BOX.","CHECK 456:
+IF YES, TICK THE ""YES"" ON
+MEDICATION BOX.
+IF NO, TICK THE ""NO"" ON MEDICATION
+BOX.","CHECK 456:
+IF YES, TICK THE ""YES"" ON
+MEDICATION BOX.
+IF NO, TICK THE ""NO"" ON MEDICATION
+BOX.",,,,,,
+477,"MARK FILTER
+PAPER CARD FOR
+ADDITIONAL TEST","ADULT RESPONDENT CHECK 469;
+MINOR RESPONDENT CHECK 467
+AND 469.
+IF GRANTED, TICK ""YES"" BOX.
+IF REFUSED TICK ""NO"" BOX.","ADULT RESPONDENT CHECK 469;
+MINOR RESPONDENT CHECK 467
+AND 469.
+IF GRANTED, TICK ""YES"" BOX.
+IF REFUSED TICK ""NO"" BOX.","ADULT RESPONDENT CHECK 469;
+MINOR RESPONDENT CHECK 467
+AND 469.
+IF GRANTED, TICK ""YES"" BOX.
+IF REFUSED TICK ""NO"" BOX.",,,,,,
+477A,CHECK 402,"IF AGE 55 OTHER
+AND ABOVE
+GO TO 479","IF AGE 55 OTHER
+AND ABOVE
+GO TO 479","IF AGE 55 OTHER
+AND ABOVE
+GO TO 479",,,,,,
+478,"क्या आपन ेकभी ओरल
+कै�वट� का पर��ण
+करवाया ह?ै","YES. . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES. . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . 2","YES. . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,
+479,"GO BACK TO 402 IN NEXT COLUMN OF THIS QUESTIONNAIRE OR IN THE FIRST COLUMN OF AN ADDITIONAL QUESTIONNAIRE;
+IF NO MORE MEN, END INTERVIEW.",,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,

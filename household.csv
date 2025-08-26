@@ -1,0 +1,1474 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19
+IDENTIFICATION,,,,,,,,,,,,,,,,,,,
+"STATE
+DISTRICT
+TEHSIL/TALUK
+CITY/TOWN/VILLAGE
+TYPE OF PSU (URBAN = 1, RURAL = 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+PSU NUMBER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+STRUCTURE NUMBER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+HOUSEHOLD NUMBER . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+NAME OF HOUSEHOLD HEAD
+ADDRESS OF HOUSEHOLD
+IS HOUSEHOLD SELECTED FOR THE STATE MODULE? (YES = 1, NO = 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+IS HOUSEHOLD SELECTED FOR DRIED BLOOD SPOT (DBS) COLLECTION? (YES = 1, NO = 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",,,,,,,,,,,,,,,,,,,
+INTERVIEWER VISITS,,,,,,,,,,,,,,,,,,,
+,1,2,,3,FINAL VISIT,,,,,,,,,,,,,,
+"DATE
+INTERVIEWER'S
+NAME
+RESULT CODE*",,,,,"DAY
+MONTH
+YEAR
+INT. NO.
+RESULT CODE*",,,,,,,,,,,,,,
+"NEXT VISIT: DATE
+TIME",,,,,"TOTAL NUMBER
+OF VISITS",,,,,,,,,,,,,,
+"SUPERVISOR'S
+NAME",,,,,"SUPERV
+NUMBER",,,,,,,,,,,,,,
+"*RESULT CODES:
+1 COMPLETED
+2 NO HOUSEHOLD MEMBER AT HOME OR NO COMPETENT RESPONDENT
+AT HOME AT TIME OF VISIT
+3 ENTIRE HOUSEHOLD ABSENT FOR EXTENDED PERIOD OF TIME
+4 POSTPONED
+5 REFUSED
+6 DWELLING VACANT OR ADDRESS NOT A DWELLING
+7 DWELLING DESTROYED
+8 DWELLING NOT FOUND
+9 OTHER
+(SPECIFY)",,,,,"TOTAL PERSONS
+IN HOUSEHOLD
+TOTAL ELIGIBLE
+WOMEN AGE 15-49
+TOTAL ELIGIBLE
+MEN AGE 15-54
+LINE NO. OF
+RESPONDENT
+TO HOUSEHOLD
+QUESTIONNAIRE",,,,,,,,,,,,,,
+"**LANGUAGE CODES:
+01 ASSAMESE 08 MALAYALAM 15 TAMIL
+02 BENGALI 09 MANIPURI 16 TELUGU
+03 GUJARATI 10 MARATHI 17 URDU
+04 HINDI 11 NEPALI 18 ENGLISH
+05 KANNADA 12 ORIYA 19 GARO
+06 KASHMIRI 13 PUNJABI 20 KHASI
+07 KONKANI 14 SINDHI 96 OTHER
+SPECIFY",,,"**LANGUAGE OF HINDI 0 4
+QUESTIONNAIRE
+**RESPONDENT'S
+MOTHER TONGUE
+**LANGUAGE OF
+INTERVIEW
+TRANSLATOR USED? (YES = 1, NO = 2) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"नमस्ते। मेरा नाम _________ है। म� (NAME OF ORGANIZATION) के साथ काम कर रहा/ रही �ँ। हम पूरे भारत म� स्वास्थ्य पर एक सव�क्षण कर रहे ह�। जो जानकारी
+हम प�रवार कल्याण और स्वास्थ्य के बारे म� घर� और �ि�य� से इक�ी कर�गे वो सरकार को स्वास्थ्य सेवाएं बनाने म� मदद करेगी। आपका प�रवार इस सव�क्षण के िलए चुना
+गया है। म� आपसे आपके प�रवार के बारे म� कुछ सवाल पूछना चा�ँगा/ चा�ँगी। इन सवाल� म� लगभग 25-35 िमनट लग�गे। आपके सारे जवाब गु� रखे जाय�गे और हमारे
+सव�क्षण के सदस्य� के अलावा �कसी को भी नह� बताये जाय�गे। आपका इस सव�क्षण म� भाग लेना स्वैिच्छक ह�। अगर आप मेरे �कसी सवाल का जवाब नह� देना चाहते, तो मुझे
+बता दीिजये और म� अगले सवाल पर चला जाऊँगा/ जाऊँगी या आप �कसी भी समय यह बातचीत रोक सकते ह�।
+क्या आप मुझसे कुछ सवाल पूछना चाहती / चाहते है?
+ANSWER ANY QUESTIONS AND ADDRESS RESPONDENT'S CONCERNS.
+य�द आपको इस सव�क्षण के बारे म� और जानकारी चािहए तो आप इस काडर् पर �दए गए नाम वाले �ि� को संपकर् कर�।
+GIVE CARD WITH CONTACT INFORMATION.
+क्या आप इस सव�क्षण म� भाग लेने के िलए सहमत ह�?
+Namaste. My name is _______. I am working with (NAME OF ORGANIZATION). We are conducting a survey about health all over India.
+The information on family welfare and health that we collect from households and individuals will help the government to plan health
+services. Your household was selected for the survey. I would like to ask you some questions about your household. The questions usually
+take about 25-35 minutes. All of the answers you give will be confidential and will not be shared with anyone other than members of our
+survey team. Your participation in the survey is voluntary. If I ask you any question you don't want to answer, just let me know and I will go
+on to the next question or you can stop the interview at any time.
+If you have any questions about this survey you may ask me.
+ANSWER ANY QUESTIONS AND ADDRESS RESPONDENT'S CONCERNS.
+If you have any further questions about this survey you may contact the persons listed on this card.
+GIVE CARD WITH CONTACT INFORMATION.
+Do you agree to participate in this survey?",,,,,,,,,,,,,,,,,,,
+"SIGNATURE OF INTERVIEWER DATE
+RESPONDENT AGREES RESPONDENT DOES NOT AGREE
+TO BE INTERVIEWED . . . 1 TO BE INTERVIEWED . . . 2 END
+BEGIN INTERVIEW
+RECORD TIME HOURS . . . . . . .
+MINUTES. . . . . . .",,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"HOUSEHOLD SCHEDULE
+अब हम उन लोग� के बारे म� कुछ जानकारी चाह�गे जो सामान्यत: आप के घर म� रहते ह� या जो अभी आपके साथ रह रहे ह�।
+Now we would like some information about the people who usually live in your household or who are staying with you now.",,,,,,,,,,,,,,,,,,,
+"LINE
+NO.","USUAL RESIDENTS AND
+VISITORS","RELATIONSHIP
+TO HEAD OF
+HOUSEHOLD",SEX,RESIDENCE,,AGE,,,"MARITAL
+STATUS",ELIGIBILITY,,,,,"BIRTH REGIS-
+TRATION",,,,
+,"कृपया मुझे उन �ि�य� के नाम बताय�
+जो सामान्यत: आपके घर म� रहते ह� और
+वे अितिथ जो िपछली रात इसी घर म�
+ठहरे थे। शु�आत घर के मुिखया से कर�।
+Please give me the names of the
+persons who usually live in your
+household and guests of the
+household who stayed here last
+night, starting with the head of the
+household.
+AFTER LISTING THE NAME,
+RELATIONSHIP, SEX,
+RESIDENCE, AND AGE FOR
+EACH PERSON; ASK QUESTIONS
+7A(a-c) TO BE SURE THAT THE
+LISTING IS COMPLETE. THEN
+ASK QUESTIONS IN COLUMNS 8-
+26 FOR EACH PERSON.","घर के मुिखया से
+(NAME) का �रश्ता
+क्या है?
+What is the
+relationship of
+(NAME) to the
+head of the
+household?
+(A)","क्या (NAME)
+पु�ष है या �ी है
+या िवपरीत �लग
+है?
+Is (NAME)
+male or female
+or transgender?","क्या
+(NAME)
+सामान्यत:
+यह�
+(रहते/रहती)
+ह�?
+Does
+(NAME)
+usually
+live here?","क्या
+(NAME)
+िपछली रात
+यह� (ठहरे
+थे/ठहरी थ�)?
+Did
+(NAME)
+stay here
+last night?","(NAME) क�
+आयु क्या है?
+How old is
+(NAME)?
+RECORD
+COM-
+PLETED
+YEARS.
+(B)",,,"IF AGE
+13 OR
+OLDER
+(NAME) क�
+वतर्मान
+वैवािहक
+िस्थित क्या
+है?
+What is
+the current
+marital
+status of
+(NAME)?
+(C)","CIRCLE
+LINE
+NUMBER
+OF ALL
+WOMEN
+AGE 15-49","CIRCLE
+LINE
+NUMBER
+OF ALL
+WOMEN
+AGE 15 OR
+OLDER","IF
+HOUSEHOLD
+IS SELECTED
+FOR STATE
+MODULE",,"CIRCLE
+LINE
+NUMBER
+OF ALL
+CHILD-
+REN AGE
+0-5",IF AGE 0-4,,,,
+,,,,,,,,,,,,,,,"क्या (NAME) के
+जन्म का �माणप�
+है?
+IF NO: क्या
+(NAME) के जन्म
+का कभी नाग�रक
+�ािधकरण म�
+पंजीकरण �कया
+गया है?
+Does (NAME)
+have a birth
+certificate?
+IF NO: Has
+(NAME)'s birth
+ever been
+registered with
+the civil
+authority?
+(D)",,,,
+,,,,,,,,,,,,"CIRCLE
+LINE
+NUMBER
+OF ALL
+MEN AGE
+15-54","CIRCLE
+LINE
+NUMBER
+OF ALL
+MEN AGE
+15 OR
+OLDER",,,,,,
+(1),(2),(3),(4),(5),(6),(7),,,(8),(9),(9A),(10),(10A),(11),(12),,,,
+01,,,"M F T
+1 2 3","YES NO
+1 2","YES NO
+1 2",IN YEARS,,,,01,01,01,01,01,"CRN DK
+1 2 3 8",,,,
+02,,,1 2 3,1 2,1 2,,,,,02,02,02,02,02,1 2 3 8,,,,
+03,,,1 2 3,1 2,1 2,,,,,03,03,03,03,03,1 2 3 8,,,,
+04,,,1 2 3,1 2,1 2,,,,,04,04,04,04,04,1 2 3 8,,,,
+05,,,1 2 3,1 2,1 2,,,,,05,05,05,05,05,1 2 3 8,,,,
+06,,,1 2 3,1 2,1 2,,,,,06,06,06,06,06,1 2 3 8,,,,
+07,,,1 2 3,1 2,1 2,,,,,07,07,07,07,07,1 2 3 8,,,,
+08,,,1 2 3,1 2,1 2,,,,,08,08,08,08,08,1 2 3 8,,,,
+09,,,1 2 3,1 2,1 2,,,,,09,09,09,09,09,1 2 3 8,,,,
+10,,,1 2 3,1 2,1 2,,,,,10,10,10,10,10,1 2 3 8,,,,
+11,,,1 2 3,1 2,1 2,,,,,11,11,11,11,11,1 2 3 8,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"LINE
+NO.","SURVIVORSHIP AND RESIDENCE OF BIOLOGICAL
+PARENTS",,,,PRESCHOOL,,EDUCATION,,,,,,,,,,"AADHAAR
+CARD/
+AADHAAR
+NUMBER",TOBACCO/ALCOHOL,
+,IF AGE 0-17,,,,IF AGE IS 2-4 YEARS,,"IF AGE 5 OR OLDER
+क्या (NAME) ने
+(NAME) कौन-सा
+कभी स्कूल उ�तम दजार्
+(गया/गयी) पास �कया ह?ै
+ह�?
+Has What is the
+(NAME) highest
+ever grade
+attended (NAME) has
+school? completed?
+(F)",IF AGE 5 OR OLDER,,,,"IF AGE 5-24
+क्या (NAME) (इस/उस) स्कूल IF NO ON Q.21
+स्कूल वषर् वषर् के दौरान (NAME) के स्कूल न
+2019-2020 (NAME) �कस जाने का मुख्य कारण
+के दौरान कभी दज/�वषर् म� जा क्या है?
+स्कूल या (रहा है/था)
+कॉलेज (रही है/थी)?
+गया/गयी ह�?
+Did (NAME) During What is the main
+attend (this/that) reason (NAME) is
+school or school or not attending
+college at college school?
+any time year, what
+during the grade/year
+2019-2020 (is/was)
+school year? (NAME)
+attending?
+(F) (G)",,,,,"क्या
+(NAME) के
+पास आधार
+काड/र्आधार
+नंबर है?
+Does
+(NAME)
+have an
+Aadhaar
+card or
+Aadhaar
+number?","IF AGE 15 OR
+OLDER",
+,"क् या
+(NAME)
+को जन् म
+देनेवाली
+माता
+जीिवत है?
+Is
+(NAME)'s
+natural
+mother
+alive?","क्या (NAME) को
+जन्म देने वाली माँ
+सामान्यतः इस घर म�
+रहती ह� या वे कल
+रात यहाँ मेहमान
+थी?
+IF YES: उनका
+नाम क्या है?
+Does (NAME)'s
+natural mother
+usually live in
+this household
+or was she a
+guest last night?
+IF YES: What is
+her name?
+IF YES:
+RECORD
+MOTHER'S
+LINE NO. IF NO:
+RECORD '00'.","क् या (NAME)
+के सगा िपता
+जीिवत है?
+Is (NAME)'s
+natural
+father alive?","क्या (NAME) का
+सगा िपता इस घर म�
+रहते है या वे कल रात
+यहाँ मेहमान थे?
+IF YES: उनका नाम
+क्या है?
+Does (NAME)'s
+natural father
+usually live in this
+household or was
+he a guest last
+night?
+IF YES: What is
+his name?
+IF YES: RECORD
+FATHER'S LINE
+NO. IF NO:
+RECORD '00'.","क्या (NAME)
+इस समय स्कूल
+जाने के पहले
+वाली �कसी
+कक्षा जैसे
+नसर्री आ�द म�
+जा रहा है/रही
+है?
+Is (NAME)
+currently
+attending
+any pre-
+school?","य�द हाँ: तो
+(NAME)
+स्कूल जाने के
+पहले वाली
+कौन-सी
+कक्षा म� जा
+रहा है/ रही
+है?
+IF YES:
+What type
+of pre-
+school is
+(NAME)
+attending?
+(E)",,,"(NAME) ने
+कौन-सा
+उ�तम दजार्
+पास �कया ह?ै
+What is the
+highest
+grade
+(NAME) has
+completed?
+(F)",,,,"(इस/उस) स्कूल
+वषर् के दौरान
+(NAME) �कस
+दज/�वषर् म� जा
+(रहा है/था)
+(रही है/थी)?
+During
+(this/that)
+school or
+college
+year, what
+grade/year
+(is/was)
+(NAME)
+attending?
+(F)",IF NO ON Q.21,,,,"क्या (NAME)
+वतर्मान म�
+धू�पान या
+�कसी अन्य �प
+म� तम्बाकू का
+सेवन करता है?
+Does
+(NAME)
+currently
+smoke or
+use tobacco
+in any form?",
+,,,,,,,,,,,,,,"(NAME) के स्कूल न
+जाने का मुख्य कारण
+क्या है?
+What is the main
+reason (NAME) is
+not attending
+school?
+(G)",,,,,
+,(13),(14),(15),(16),(17),(18),(19),,(20),,,(21),(22),(23),,,(24),(25),(26)
+01,"Y N DK
+1 2 8
+GO TO 15",LINE NO.,"Y N DK
+1 2 8
+GO TO 17",LINE NO.,"Y N DK
+1 2 8
+GO TO 24",GO TO 24,"YES NO
+1 2
+GO TO 24",,GRADE,,,"YES NO
+1 2
+GO TO 23","GRADE
+GO TO 24",REASON,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+02,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+03,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+04,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+05,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+06,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+07,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+08,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+09,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+10,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+11,"1 2 8
+GO TO 15",,"1 2 8
+GO TO 17",,"1 2 8
+GO TO 24",,"1 2
+GO TO 24",,,,,"1 2
+GO TO 23",GO TO 24,,,,"YES NO
+1 2","YES NO DK
+1 2 8","YES NO DK
+1 2 8"
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+TICK HERE IF CONTINUATION QUESTIONNAIRE USED,,,,,,,,,,,,,,,,,,,
+"7A यह सुिनि�त करने के िलये क� म�ने आपके पूरे प�रवार का सूचीकरण कर िलया ह:ै
+Just to make sure that I have a complete household listing:
+a) क्या यहां कोई अन्य �ि� ह� िजन को हमने इस सूची म� शािमल नह� �कया है जैसे �क छोटे बच् चे या िशश?ु
+Are there any other persons such as small children ENTER EACH
+or infants that we have not listed? YES IN TABLE NO
+b) क्या यहां ऐसे कोई अन्य लोग सामान्यत: रहते ह� जो आपके प�रवार के सदस्य नही है जैसे घरेलू नौकर या दोस्त?
+Are there any other people who may not be members
+of your family such as domestic servants, lodgers or ENTER EACH
+friends who usually live here? YES IN TABLE NO
+c) क्या िपछली रात यहां कोई मेहमान, अस्थायी आगन्तुक अथवा कोई अन्य �ि� ठहरे थे जो इस सूची म� शािमल नह�
+ह?ै
+Are there any guests or temporary visitors staying
+here, or anyone else who stayed here last night, who ENTER EACH
+have not been listed? YES IN TABLE NO",,,,,,,,,,,,,,,,,,,
+"कोई व् यि� �ायः �कतनी बार आपके घर के अंदर धु�पान करता ह,ै क् या आप कह�गे
+रोजाना, हप् ते म� एकबार, मिहने म� एक बार, कभी नह�?
+How often does anyone smoke inside your house? Would you say
+daily, weekly, monthly, less than monthly, or never?","DAILY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+WEEKLY . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+MONTHLY . . . . . . . . . . . . . . . . . . . . . . . . . 3
+LESS THAN MONTHLY . . . . . . . . . . . . . 4
+NEVER . . . . . . . . . . . . . . . . . . . . . . . . . . . 5",,,,,,,,,,,,,,,,,,
+"क्या आपके प�रवार म� आप या कोई अन्य सदस्य तपे�दक [टी बी] रोग से पीिड़त है?
+Does any usual resident of your household including you suffer from
+tuberculosis?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,,
+"तपे�दक [टी बी] रोग से कौन पीिड़त है?
+कोई अन्य?
+Who suffers from tuberculosis?
+Anyone else?
+RECORD LINE NUMBER(S).
+IF NO MORE TB CASES, RECORD '95'.","30 FOR EACH PERSON, ASK:
+क् या (NAME) ने तपे�दक [टी बी] के िलए
+िच�कत् सक�य इलाज कराया ह?ै
+IF YES, ASK: (NAME) कहाँ गय�?
+Has (NAME) received medical treatment
+for the tuberculosis?
+IF YES, ASK: Where did (NAME) go?
+YES, YES,
+PUBLIC PRIVATE YES,
+ONLY ONLY BOTH NO
+LINE
+1 2 3 4
+NO.
+LINE
+1 2 3 4
+NO.
+LINE
+1 2 3 4
+NO.
+LINE
+1 2 3 4
+NO.",,,,,,,,,,,,,,,,,,
+"क्या आपके प�रवार म� आपको या �कसी अन्य सदस्य को �कसी �कार क� िवकलांगता
+है ?
+Does any usual resident of your household including you have any
+disability?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,,
+"कृपया उन �ि�य� के नाम बताएं ।
+Please tell me the names of those persons.
+RECORD NAME AND LINE NUMBER OF EACH
+PERSON MENTIONED.
+IF NO MORE PERSONS WITH ANY DISABILITY, RECORD '95'.","1. NAME--------------------- LINE NO.
+2. NAME--------------------- LINE NO.
+3. NAME--------------------- LINE NO.
+4. NAME--------------------- LINE NO.",,,,,,,,,,,,,,,,,,
+"FOR EACH PERSON WITH A DISABILITY, ASK:
+(NAME) को �कस �कार क� िवकलांगता है?
+कोई अन्य?
+What type of disability does (NAME) have?
+Any other?","LINE NUMBER
+HEARING . . . . . . A A A A
+SPEECH . . . . . . B B B B
+VISUAL . . . . . . C C C C
+MENTAL . . . . . . D D D D
+LOCOMOTOR . E E E E
+OTHER. . . . . . . . X X X X",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,"आपके घर के सदस्य� के िलए पीने के पानी का मुख्य �ोत क्या है?
+What is the main source of drinking water for members of your
+household?","PIPED WATER
+PIPED INTO DWELLING . . . . . . . . . . . 11
+PIPED TO YARD/PLOT . . . . . . . . . . . 12
+PIPED TO NEIGHBOUR 13
+PUBLIC TAP/STANDPIPE . . . . . . . . . . . 14
+TUBE WELL OR BOREHOLE . . . . . . . . 21
+DUG WELL
+PROTECTED WELL . . . . . . . . . . . . . . 31
+UNPROTECTED WELL . . . . . . . . . . . . . 32
+WATER FROM SPRING
+PROTECTED SPRING . . . . . . . . . . . . . 41
+UNPROTECTED SPRING . . . . . . . . . . . 42
+RAINWATER . . . . . . . . . . . . . . . . . . . . . . . 51
+TANKER TRUCK . . . . . . . . . . . . . . . . . . . . 61
+CART WITH SMALL TANK . . . . . . . . . . . 71
+SURFACE WATER (RIVER/DAM/
+LAKE/POND/STREAM/CANAL/
+IRRIGATION CHANNEL). . . . . . . . . . . 81
+BOTTLED WATER . . . . . . . . . . . . . . . . . . 91
+COMMUNITY RO PLANT . . . . . . . . . . . . . 92
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,
+,"पानी का �ोत कहां पर है?
+Where is the water source located?","IN OWN DWELLING . . . . . . . . . . . . . . . . . . 1
+IN OWN YARD/PLOT . . . . . . . . . . . . . . . . 2
+ELSEWHERE . . . . . . . . . . . . . . . . . . . . . . . 3",,,,,,,,,,,,,,,,,
+,"वहां एक बार जाने म�, पानी लेने म,� और वापस आने म� �कतना समय लगता है?
+How long does it take to go there, get water, and come back in one
+trip?","MINUTES . . . . . . . . . . . . . . . .
+DELIVERED TO DWELLING . . . . . . . . 000
+ON THE PREMISES . . . . . . . . . . . . . . . . 996
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . 998",,,,,,,,,,,,,,,,,
+,"आपके घर के िलए इस �ोत से पानी लाने के िलए सामान्यतः कौन जाता है?
+Who usually goes to this source to fetch the water for your
+household?","ADULT WOMAN . . . . . . . . . . . . . . . . . . . . 1
+ADULT MAN . . . . . . . . . . . . . . . . . . . . . . . 2
+FEMALE CHILD
+UNDER AGE 15 YEARS . . . . . . . . . . . 3
+MALE CHILD
+UNDER AGE 15 YEARS . . . . . . . . . . . 4
+OTHER 6
+(SPECIFY)",,,,,,,,,,,,,,,,,
+37A,"CHECK 34: CODE '13' OR '14' OR '21' CIRCLED?
+AT LEAST ONE CIRCLED NONE CIRCLED",,38,,,,,,,,,,,,,,,,
+,"िपछले दो हफ्त� म,� क्या इस �ोत का पानी कम से कम एक पूणर् �दन के िलए उपलब्ध
+नह� था?
+In the past two weeks, was the water from this source not available
+for at least one full day?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,
+,"क् या आपके घर के सदस् य पीने के पानी को सुरिक्षत बनाने के िलए कुछ
+करते ह� ?
+Does this household do anything to the water to make it
+safer to drink?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,
+,"पीने के पानी को सुरिक्षत बनाने के िलए सामान्यतः आपका प�रवार क्या करता है ?
+कोई अन् य?
+What does this household usually do to make the water safer to
+drink?
+Anything else?
+RECORD ALL MENTIONED.","BOIL . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . A
+USE ALUM . . . . . . . . . . . . . . . . . . . . . . . . . B
+ADD BLEACH/CHLORINE TABLETS . . . . C
+STRAIN THROUGH A CLOTH . . . . . . . . D
+USE WATER FILTER (CERAMIC/
+SAND/COMPOSITE/ETC.) . . . . . . . . E
+USE ELECTRONIC PURIFIER . . . . . . . . F
+USE SOLAR DISINFECTION . . . . . . . . G
+LET IT STAND AND SETTLE . . . . . . . . H
+OTHER X
+(SPECIFY)
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . Z",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"आपके प�रवार के सदस्य सामान्यतः �कस �कार क� शौच सुिवधा का इस्तेमाल करते
+ह?�
+What kind of toilet facility do members of your household usually
+use?","FLUSH OR POUR FLUSH TOILET
+FLUSH TO PIPED SEWER
+SYSTEM . . . . . . . . . . . . . . . . . . . . . . . 11
+FLUSH TO SEPTIC TANK . . . . . . . . 12
+FLUSH TO PIT LATRINE . . . . . . . . . . . 13
+FLUSH TO SOMEWHERE ELSE . . . . 14
+FLUSH, DON'T KNOW WHERE . . . . 15
+PIT LATRINE
+VENTILATED IMPROVED SINGLE
+PIT (VIP)/BIOGAS LATRINE . . . . . . . . 21
+SINGLE PIT LATRINE WITH SLAB . . . . 22
+SINGLE PIT LATRINE WITHOUT SLAB/
+OPEN PIT . . . . . . . . . . . . . . . . . . . . . . . 23
+TWIN PIT/COMPOSTING TOILET. . . . . . . . 31
+DRY TOILET . . . . . . . . . . . . . . . . . . . . . . . . . 41
+NO FACILITY/USES OPEN SPACE
+OR FIELD . . . . . . . . . . . . . . . . . . . . . . . 51
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,,
+"शौचालय सुिवधा कहाँ पर है?
+Where is the toilet facility located?","IN OWN DWELLING . . . . . . . . . . . . . . . . . . 1
+IN OWN YARD/PLOT . . . . . . . . . . . . . . . . 2
+ELSEWHERE . . . . . . . . . . . . . . . . . . . . . . . 3",,,,,,,,,,,,,,,,,,
+"क्या इस शौच सुिवधा का इस्तेमाल अन्य प�रवार भी करते ह�?
+Do you share this toilet facility with other households?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,,
+"आपके प�रवार को लेकर और �कतने प�रवार इस शौच सुिवधा का इस्तेमाल करते ह�?
+Including your own household, how many households use this toilet
+facility?","NO. OF HOUSEHOLDS 0
+IF LESS THAN 10 . . . . . . . .
+10 OR MORE HOUSEHOLDS . . . . . . . . 95
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 98",,,,,,,,,,,,,,,,,,
+"क्या आपके प�रवार के सदस्य� को शौचालय क� सुिवधा है?
+Do members of your household have access to a toilet facility?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,,
+"आपके प�रवार के सदस्य� के िलए �कस तरह क� शौचालय सुिवधा सुलभ है?
+What kind of toilet facility do members of your household have
+access to?","OWN TOILET. . . . . . . . . . . . . . . . . . . . . . . . . 1
+COMMUNITY TOILET. . . . . . . . . . . . . . . . . . 2
+SHARED TOILET WITH OTHER
+HOUSEHOLD . . . . . . . . . . . . . . . . . . . . . . . 3",,,,,,,,,,,,,,,,,,
+"आपके घर म� �कस �कार क� जल िनकास नािलयाँ ह�?
+What type of drainage facility does your household have?","CLOSED DRAINAGE . . . . . . . . . . . . . . . . . . 1
+OPEN DRAINAGE . . . . . . . . . . . . . . . . . . 2
+DRAIN TO SOAK PIT . . . . . . . . . . . . . . . . . . 3
+NO DRAINAGE . . . . . . . . . . . . . . . . . . . . . . . 4",,,,,,,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,,,
+"प�रवार के मुिखया का धमर् क्या है?
+What is the religion of the head of the household?","HINDU . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 01
+MUSLIM . . . . . . . . . . . . . . . . . . . . . . . . . . . 02
+CHRISTIAN . . . . . . . . . . . . . . . . . . . . . . . . . 03
+SIKH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 04
+BUDDHIST/NEO-BUDDHIST . . . . . . . . . . . 05
+JAIN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 06
+JEWISH . . . . . . . . . . . . . . . . . . . . . . . . . . . 07
+PARSI/ZOROASTRIAN . . . . . . . . . . . . . 08
+NO RELIGION . . . . . . . . . . . . . . . . . . . . 09
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,,
+"प�रवार के मुिखया क� जाित या जनजाित क्या है?
+What is the caste or tribe of the head of the household?","CASTE 991
+(SPECIFY)
+TRIBE 992
+(SPECIFY)
+NO CASTE/TRIBE . . . . . . . . . . . . . . . . 993
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . 998",,,,,,,,,,,,,,,,,,
+"क्या यह अनुसूिचत जाित, अनुसूिचत जनजाित, अन्य िपछड़े वगर् म� से है या इनम� से
+कोई नह� है?
+Is this a scheduled caste, a scheduled tribe, other backward class,
+or none of them?","SCHEDULED CASTE . . . . . . . . . . . . . . . . 1
+SCHEDULED TRIBE . . . . . . . . . . . . . . . . . . 2
+OTHER BACKWARD CLASS . . . . . . . . 3
+NONE OF THEM . . . . . . . . . . . . . . . . . . . . 4
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,,
+"क्या आपके घर म� ____________ह�:
+Does your household have:
+a)Electricity? िबजली?
+b)A mattress? गददा?
+c)A pressure cooker? �ेशर कुकर?
+d)A chair? कुस�?
+e)A cot or bed? खाट या चारपाई?
+f)A table? मेज?
+g)An electric fan? िबजली का पंखा?
+h)A radio or transistor? रेिडयो या �ांिजस्टर?
+i)A black and white television? काला और सफेद टेलीिवजन?
+j)A colour television? रंगीन टेलीिवजन?
+k)A sewing machine? िसलाई मशीन?
+l)A mobile telephone? मोबाईल टेलीफोन?
+m)A landline telephone? ल�डलाइन टेलीफोन?
+n)Internet? इंटरनेट?
+o)A computer? कम्प्युटर?
+p)A refrigerator? रे��जरेटर?
+q)An air conditioner/cooler? ए सी / कूलर?
+r)A washing machine? कपडे धोने क� मशीन?
+s)A watch or clock? घड़ी या दीवार घड़ी?
+t)A bicycle? साइ�कल?
+u)A motorcycle or scooter? मोटर साई�कल या स्कूटर?
+v)An animal-drawn cart? जानवर �ारा ख�ची जानेवाली गाड़ी?
+w)A car? कार?
+x)A water pump? वाटर पंप?
+y)A thresher? �ेशर?
+z)A tractor? �ैक्टर?","YES NO
+ELECTRICITY . . . . . . . . . . . . . . . . 1 2
+MATTRESS . . . . . . . . . . . . . . . . . . 1 2
+PRESSURE COOKER . . . . . . . . 1 2
+CHAIR . . . . . . . . . . . . . . . . . . . . . . . 1 2
+COT/BED . . . . . . . . . . . . . . . . . . . . 1 2
+TABLE . . . . . . . . . . . . . . . . . . . . . . . 1 2
+ELECTRIC FAN . . . . . . . . . . . . . 1 2
+RADIO/TRANSISTOR . . . . . . . . 1 2
+B & W TELEVISION . . . . . . . . . . . 1 2
+COLOUR TELEVISION . . . . . . . . 1 2
+SEWING MACHINE . . . . . . . . . . . 1 2
+MOBILE TELEPHONE . . . . . . . . 1 2
+LANDLINE TELEPHONE . . . . . . 1 2
+INTERNET . . . . . . . . . . . . . . . . . . 1 2
+COMPUTER . . . . . . . . . . . . . . . . . . 1 2
+REFRIGERATOR . . . . . . . . . . . . . 1 2
+AIR CONDITIONER/COOLER . 1 2
+WASHING MACHINE . . . . . . . . 1 2
+WATCH/CLOCK . . . . . . . . . . . . . 1 2
+BICYCLE . . . . . . . . . . . . . . . . . . . . 1 2
+MOTORCYCLE/SCOOTER . . . . 1 2
+ANIMAL-DRAWN CART . . . . . . 1 2
+CAR . . . . . . . . . . . . . . . . . . . . . . . 1 2
+WATER PUMP . . . . . . . . . . . . . . . . 1 2
+THRESHER . . . . . . . . . . . . . . . . . . 1 2
+TRACTOR . . . . . . . . . . . . . . . . . . 1 2",,,,,,,,,,,,,,,,,,
+,"खाना पकाने के िलए आपके घर म� मुख्यत: �कस �कार के �धन का इस्तेमाल �कया
+जाता है?
+What type of fuel does your household mainly use for cooking?","ELECTRICITY . . . . . . . . . . . . . . . . . . . . . . . 01
+LPG/NATURAL GAS . . . . . . . . . . . . . . . . 02
+BIOGAS . . . . . . . . . . . . . . . . . . . . . . . . . . . 03
+KEROSENE . . . . . . . . . . . . . . . . . . . . . . . . . 04
+COAL/LIGNITE . . . . . . . . . . . . . . . . . . . . 05
+CHARCOAL . . . . . . . . . . . . . . . . . . . . . . . . . 06
+WOOD . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 07
+STRAW/SHRUBS/GRASS . . . . . . . . . . . 08
+AGRICULTURAL CROP WASTE . . . . . . 09
+DUNG CAKES . . . . . . . . . . . . . . . . . . . . . . . 10
+NO FOOD COOKED IN HOUSEHOLD . . . . 95
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,
+,"क्या इस घर म� खाना स्टोव पर, चूल्हे पर या खुली आग म� पकाया जाता है?
+In this household, is food cooked on a stove, a chullah, or an open
+fire?",,,,,,,,,,,,,,,,,,
+,"क्या खाना सामान्यतः घर म�, अलग इमारत म� या बाहर पकाया जाता है?
+Is the cooking usually done in the house, in a separate building, or
+outdoors?","IN THE HOUSE . . . . . . . . . . . . . . . . . . . . 1
+IN A SEPARATE BUILDING . . . . . . . . . . . 2
+OUTDOORS . . . . . . . . . . . . . . . . . . . . . . . 3
+OTHER 6
+(SPECIFY)",,,,,,,,,,,,,,,,,
+,"क्या आपके घर म� खाना पकाने के िलए अलग कमरा है?
+Do you have a separate room which is used as a kitchen?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,
+,"जो कमरा खाना बनाने के िलए उपयोग करते है, क्या वह हवादार (व��टलेशन) ह?ै
+Does the room used for cooking have any ventilation?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,
+,"आपका प�रवार रसोई क� बेकार बची �ई साम�ी या पानी आ�द का िनबटारा कैसे
+करता है?
+How does this household dispose of the kitchen waste?
+RECORD ALL MENTIONED.","LET OUT INTO DRAIN/SEWER . . . . . . . . A
+OPEN DRAIN . . . . . . . . . . . . . . . . . . . . . . . B
+CLOSED DRAIN. . . . . . . . . . . . . . . . . . . . . . . C
+REUSE FOR GARDEN OR FARMING . . . . D
+REUSE FOR OTHER DOMESTIC
+PURPOSES . . . . . . . . . . . . . . . . . . . . . . . E
+MANUAL COLLECTION . . . . . . . . . . . . . . . . F
+OTHER X
+(SPECIFY)",,,,,,,,,,,,,,,,,
+57,"MAIN MATERIAL OF THE FLOOR.
+RECORD OBSERVATION.","NATURAL FLOOR
+MUD/CLAY/EARTH . . . . . . . . . . . . . . . . 11
+SAND . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+DUNG . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+RUDIMENTARY FLOOR
+RAW WOOD PLANKS . . . . . . . . . . . . . 21
+PALM/BAMBOO . . . . . . . . . . . . . . . . . . 22
+BRICK . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+STONE . . . . . . . . . . . . . . . . . . . . . . . . . 24
+FINISHED FLOOR
+PARQUET OR POLISHED WOOD . . . . 31
+VINYL OR ASPHALT . . . . . . . . . . . . . 32
+CERAMIC TILES . . . . . . . . . . . . . . . . . . 33
+CEMENT . . . . . . . . . . . . . . . . . . . . . . . . . 34
+CARPET . . . . . . . . . . . . . . . . . . . . . . . . . 35
+POLISHED STONE/MARBLE/
+GRANITE . . . . . . . . . . . . . . . . . . . . . . . 36
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,
+58,"MAIN MATERIAL OF THE ROOF.
+RECORD OBSERVATION.","NATURAL ROOFING
+NO ROOF . . . . . . . . . . . . . . . . . . . . . . . 11
+THATCH/PALM LEAF/
+REED/GRASS . . . . . . . . . . . . . . . . . . 12
+MUD . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+SOD/MUD AND GRASS MIXTURE . 14
+PLASTIC/POLYTHENE SHEETING . 15
+RUDIMENTARY ROOFING
+RUSTIC MAT . . . . . . . . . . . . . . . . . . . . 21
+PALM/BAMBOO . . . . . . . . . . . . . . . . . . 22
+RAW WOOD PLANKS/TIMBER . . . . 23
+UNBURNT BRICK . . . . . . . . . . . . . . . . 24
+LOOSELY PACKED STONE . . . . . . 25
+FINISHED ROOFING
+METAL/GI . . . . . . . . . . . . . . . . . . . . . . . 31
+WOOD . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+CALAMINE/CEMENT FIBER . . . . . . . . 33
+ASBESTOS SHEETS . . . . . . . . . . . . . 34
+RCC/RBC/CEMENT/CONCRETE . . . . 35
+ROOFING SHINGLES . . . . . . . . . . . . . 36
+TILES . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+SLATE . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+BURNT BRICK . . . . . . . . . . . . . . . . . . . . 39
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,
+59,"MAIN MATERIAL OF THE EXTERIOR WALLS.
+RECORD OBSERVATION.","NATURAL WALLS
+NO WALLS . . . . . . . . . . . . . . . . . . . . . . . 11
+CANE/PALM/TRUNKS/BAMBOO . . . . 12
+MUD. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+GRASS/REEDS/THATCH . . . . . . . . . . . 14
+RUDIMENTARY WALLS
+BAMBOO WITH MUD . . . . . . . . . . . . . 21
+STONE WITH MUD . . . . . . . . . . . . . 22
+PLYWOOD . . . . . . . . . . . . . . . . . . . . 23
+CARDBOARD . . . . . . . . . . . . . . . . . . . . 24
+UNBURNT BRICK . . . . . . . . . . . . . . . . 25
+RAW WOOD/REUSED WOOD . . . . . . 26
+FINISHED WALLS
+CEMENT/CONCRETE . . . . . . . . . . . . . 31
+STONE WITH LIME/CEMENT . . . . . . . . 32
+BURNT BRICKS . . . . . . . . . . . . . . . . . . 33
+CEMENT BLOCKS . . . . . . . . . . . . . . . . 34
+WOOD PLANKS/SHINGLES . . . . . . 35
+GI/METAL/ASBESTOS SHEETS . . . . . . 36
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,
+,"इस घर म� सोने के िलए �कतने कमर� का उपयोग �कया जाता है?
+How many rooms in this household are used for sleeping?",ROOMS . . . . . . . . . . . . . . . . . . . .,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,"क्या इस प�रवार का कोई भी सदस्य इस घर का या �कसी दूसरे घर का मािलक है?
+Does any member of this household own this house or any other
+house?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,
+,"उस घर का मािलक कौन है?
+Who owns this house?","MALE MEMBER . . . . . . . . . . . . . . . . . . 1
+FEMALE MEMBER . . . . . . . . . . . . . . . . . . 2
+BOTH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,
+,"क्या इस प�रवार का कोई भी सदस्य �कसी खेतीहर ज़मीन का मािलक है?
+Does any member of this household own any agricultural land?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,
+,"इस खेतीहर ज़मीन का मािलक कौन है?
+Who owns this agricultural land ?","MALE MEMBER . . . . . . . . . . . . . . . . . . . . 1
+FEMALE MEMBER . . . . . . . . . . . . . . . . . . 2
+BOTH . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,
+,"इस प�रवार के सदस्य� के पास अपनी �कतनी खेतीहर ज़मीन है?
+How much agricultural land do members of this household own?
+(IF NOT IN ACRES,THEN CONVERT INTO ACRES)",ACRES. . . . . . . . .,,,,,,,,,,,,,,,,,
+,"इस ज़मीन म� से �कतनी �सिचत है?
+Out of this land, how much is irrigated?
+(IF NOT IN ACRES,THEN CONVERT INTO ACRES)","ACRES. . . . . . . . .
+NONE . . . . . . . . . . . . . . . . . . . . . . . . . . . 9995
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . 9998",,,,,,,,,,,,,,,,,
+,"क्या आपके प�रवार के पास इनम� से कोई मवेशी है:
+Does your household own any of the following animals:
+a)Cows, bulls, buffaloes, or yaks? गाय, बैल, भ�स या याक?
+b)Camels? ऊंट?
+c)Horses, donkeys, or mules? घोडे, गधे या खच् चर?
+d)Goats or sheep? बकरी या भ�ड़?
+e)Pigs? सुअर?
+f)Chickens or ducks? मुगार् या ब�ख?","YES NO
+COWS/BULLS/BUFFALOES/YAKS . 1 2
+CAMELS . . . . . . . . . . . . . . . . . . . . . . . 1 2
+HORSES/DONKEYS/MULES . . . . . . 1 2
+GOATS/ SHEEP. . . . . . . . . . . . . . . . . . 1 2
+PIGS . . . . . . . . . . . . . . . . . . . . . . . . . 1 2
+CHICKENS/DUCKS . . . . . . . . . . . . . 1 2",,,,,,,,,,,,,,,,,
+68,"CHECK 67:
+AT LEAST ONE 'YES' ALL 'NO'",,70,,,,,,,,,,,,,,,,
+,"क्या यह प�रवार �कसी सोने वाले कमरे को पशु (�) के साथ साझा करता है?
+Does this household share a sleeping room with (this/these)
+animal(s)?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,
+,"क्या इस प�रवार के �कसी सामान्य सदस्य का ब�क या डाकघर म� कोई खाता है?
+Does any usual member of this household have a bank account
+or a post office account?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,
+,"क्या इस प�रवार का कोई सामान्य सदस्य स्वास्थ्य योजना या स्वास्थ्य बीमा के
+अंतर्गत आता ह?ै
+Is any usual member of this household covered by a health scheme
+or health insurance?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,
+,"स्वास्थ्य योजना या स्वास्थ्य बीमा �कस �कार का है?
+अन्य �कसी �कार का?
+What type of health scheme or health insurance?
+Any other type?
+RECORD ALL MENTIONED.","EMPLOYEES STATE
+INSURANCE SCHEME (ESIS) . . . . . . A
+CENTRAL GOVERNMENT HEALTH
+SCHEME (CGHS) . . . . . . . . . . . . . . . . . . B
+STATE HEALTH INSURANCE
+SCHEME . . . . . . . . . . . . . . . . . . . . . . . . . C
+RASHTRIYA SWASTHYA BIMA YOJANA
+(RSBY) . . . . . . . . . . . . . . . . . . . . . . . . . D
+COMMUNITY HEALTH INSURANCE
+PROGRAMME . . . . . . . . . . . . . . . . . . . . E
+OTHER HEALTH INSURANCE
+THROUGH EMPLOYER . . . . . . . . . . . F
+MEDICAL REIMBURSEMENT FROM
+EMPLOYER . . . . . . . . . . . . . . . . . . . . . . . G
+OTHER PRIVATELY PURCHASED
+COMMERCIAL HEALTH INSURANCE . H
+OTHER X
+(SPECIFY)",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"जब आपके प�रवार के सदस्य बीमार पड़ते ह� तो वे सामान्यतः इलाज के िलए कहां
+जाते ह�?
+When members of your household get sick, where do they
+generally go for treatment?","PUBLIC HEALTH SECTOR
+GOVT./MUNICIPAL HOSPITAL . . . . . . 11
+GOVT. DISPENSARY . . . . . . . . . . . . . 12
+UHC/UHP/UFWC . . . . . . . . . . . . . . . . . . 13
+CHC/RURAL HOSPITAL/BLOCK PHC . 14
+PHC/ADDITIONAL PHC . . . . . . . . . . . 15
+SUB-CENTRE . . . . . . . . . . . . . . . . . . . . 16
+AYUSH
+AYURVEDA . . . . . . . . . . . . . . . . . . . . 17
+YOGA AND NATUROPATHY . . . . . . 18
+UNANI . . . . . . . . . . . . . . . . . . . . . . . 19
+SIDDHA . . . . . . . . . . . . . . . . . . . . . . . 20
+HOMEOPATHY . . . . . . . . . . . . . . . . . . 21
+SOWA RIGPA (TTM) . . . . . . . . . . . . . 22
+OTHER 23
+(SPECIFY)
+ANGANWADI/ICDS CENTRE . . . . . . 24
+ASHA . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
+GOVT. MOBILE CLINIC . . . . . . . . . . . 26
+OTHER PUBLIC HEALTH SECTOR . . . . 27
+NGO OR TRUST HOSPITAL/CLINIC . . . . 31
+PRIVATE HEALTH SECTOR
+PVT. HOSPITAL . . . . . . . . . . . . . . . . . . 41
+PVT. DOCTOR/CLINIC . . . . . . . . . . . . . 42
+PVT. PARAMEDIC . . . . . . . . . . . . . . . . . . 43
+AYUSH
+AYURVEDA . . . . . . . . . . . . . . . . . . . . 44
+YOGA AND NATUROPATHY . . . . . . 45
+UNANI . . . . . . . . . . . . . . . . . . . . . . . 46
+SIDDHA . . . . . . . . . . . . . . . . . . . . . . . 47
+HOMEOPATHY . . . . . . . . . . . . . . . . . . 48
+SOWA RIGPA (TTM) . . . . . . . . . . . . . 49
+OTHER 50
+(SPECIFY)
+TRADITIONAL HEALER . . . . . . . . . . . 51
+PHARMACY/DRUGSTORE . . . . . . . . 52
+DAI (TBA) . . . . . . . . . . . . . . . . . . . . . . . 53
+OTHER PRIVATE HEALTH SECTOR . 54
+OTHER
+SHOP . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+HOME TREATMENT . . . . . . . . . . . . . . . . 62
+OTHER 96
+(SPECIFY)",,,,,,,,,,,,,,,,,,
+"आपके प�रवार के सदस्य बीमार पड़ने पर सामान्यतः सरकारी सुिवधा म� क्य� नह�
+जाते ह�?
+कोई अन्य कारण?
+Why don't members of your household generally go to a
+government facility when they are sick?
+Any other reason?
+RECORD ALL MENTIONED.","NO NEARBY FACILITY . . . . . . . . . . . . . . . . A
+FACILITY TIMING NOT CONVENIENT . . . . B
+HEALTH PERSONNEL OFTEN ABSENT . C
+WAITING TIME TOO LONG. . . . . . . . . . . . . D
+POOR QUALITY OF CARE . . . . . . . . . . . . . E
+OTHER X
+(SPECIFY)",,,,,,,,,,,,,,,,,,
+"क्या इस प�रवार के पास बी पी एल काडर् है?
+Does your household have a BPL card?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+DON'T KNOW . . . . . . . . . . . . . . . . . . . . . . . 8",,,,,,,,,,,,,,,,,,
+"क्या इस प�रवार के पास कोई मच्छरदानी है िजसका इस्तेमाल सोते समय �कया जा
+सकता है?
+Does your household have any mosquito nets that can be used
+while sleeping?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,,
+"आपके घर म� �कतनी मच् छरदािनयां ह?�
+How many mosquito nets does your household have?
+IF 7 OR MORE NETS, RECORD '7'.",NUMBER OF NETS . . . . . . . . . . . . . . . .,,,,,,,,,,,,,,,,,,
+,,NET #1,NET #2,NET #3,,,,,,,,,,,,,,,
+78,"OBSERVE OR ASK THE BRAND/
+TYPE OF MOSQUITO NET.
+IF BRAND IS UNKNOWN AND
+YOU CANNOT OBSERVE THE
+NET, SHOW PICTURES OF
+TYPICAL NET TYPES/BRANDS
+TO RESPONDENT.","LONG-LASTING
+INSECTICIDE-
+TREATED NET (LLIN)
+DAWA PLUS . . . . 11
+DURANET . . . . . . 12
+INTERCEPTOR . 13
+LIFENET . . . . . . 14
+MAGNET . . . . . . 15
+NETPROTECT . 16
+OLYSET . . . . . . 17
+PERMANET . . . . 18
+ROYAL SENTRY . . 19
+YORKOOL . . . . . . 20
+OTHER/
+DK BRAND. . . . 26
+OTHER TYPE . . . . . . . . . 96
+DK TYPE . . . . . . . . . . . 98","LONG-LASTING
+INSECTICIDE-
+TREATED NET (LLIN)
+DAWA PLUS . . . . 11
+DURANET . . . . . . 12
+INTERCEPTOR . 13
+LIFENET . . . . . . 14
+MAGNET . . . . . . 15
+NETPROTECT . 16
+OLYSET . . . . . . 17
+PERMANET . . . . 18
+ROYAL SENTRY . . 19
+YORKOOL . . . . . . 20
+OTHER/
+DK BRAND. . . . 26
+OTHER TYPE . . . . . . . . . 96
+DK TYPE . . . . . . . . . . . 98","LONG-LASTING
+INSECTICIDE-
+TREATED NET (LLIN)
+DAWA PLUS . . . 11
+DURANET . . . . . . 12
+INTERCEPTOR . 13
+LIFENET . . . . . . 14
+MAGNET . . . . . . 15
+NETPROTECT . 16
+OLYSET . . . . . . 17
+PERMANET . . . 18
+ROYAL SENTRY . .19
+YORKOOL . . . . . . 20
+OTHER/
+DK BRAND. . . 26
+OTHER TYPE . . . . . . . . 96
+DK TYPE . . . . . . . . . . . 98",,,,,,,,,,,,,,,
+79,"मच् छरदानी आपको कहां से िमली?
+From where did you get the
+mosquito net?","PURCHASED FROM THE
+MARKET . . . . . . . . . 1
+GOVERNMENT . . . . . . 2
+SUPPLIED BY
+NGO/TRUST . . . . . . 3
+OTHER 6
+(SPECIFY)
+DON'T KNOW . . . . . . . . . 8","PURCHASED FROM THE
+MARKET . . . . . . . . . 1
+GOVERNMENT . . . . . . 2
+SUPPLIED BY
+NGO/TRUST . . . . . . 3
+OTHER 6
+(SPECIFY)
+DON'T KNOW . . . . . . . . . 8","PURCHASED FROM THE
+MARKET . . . . . . . . 1
+GOVERNMENT . . . . . . 2
+SUPPLIED BY
+NGO/TRUST . . . . . . 3
+OTHER 6
+(SPECIFY)
+DON'T KNOW . . . . . . . . 8",,,,,,,,,,,,,,,
+80,"इस मच् छरदानी म� िपछली रात को क् या
+कोई सोया था?
+Did anyone sleep under this
+mosquito net last night?","YES . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(SKIP TO 82)
+NOT SURE . . . . . . . . . 8","YES . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . 2
+(SKIP TO 82)
+NOT SURE. . . . . . . . . . . 8","YES . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . 2
+(SKIP TO 82)
+NOT SURE. . . . . . . . . . . 8",,,,,,,,,,,,,,,
+81,"इस मच् छरदानी म� िपछली रात कौन
+सोया था?
+Who slept under this mosquito
+net last night?
+RECORD THE PERSON'S NAME
+AND LINE NUMBER FROM THE
+HOUSEHOLD SCHEDULE.","NAME
+LINE
+NO. . . . . . . . . .","NAME
+LINE
+NO. . . . . . . . . .","NAME
+LINE
+NO. . . . . . . . . .
+NAME
+LINE
+NO. . . . . . . . . .
+NAME
+LINE
+NO. . . . . . . . . .
+NAME
+LINE
+NO. . . . . . . . . .",,,,,,,,,,,,,,,
+,,"NAME
+LINE
+NO. . . . . . . . . .","NAME
+LINE
+NO. . . . . . . . . .",,,,,,,,,,,,,,,,
+,,"NAME
+LINE
+NO. . . . . . . . . .","NAME
+LINE
+NO. . . . . . . . . .",,,,,,,,,,,,,,,,
+,,"NAME
+LINE
+NO. . . . . . . . . .","NAME
+LINE
+NO. . . . . . . . . .",,,,,,,,,,,,,,,,
+82,,"GO BACK TO 78 FOR
+NEXT NET; OR, IF NO
+MORE NETS,
+GO TO 83.","GO BACK TO 78 FOR
+NEXT NET; OR, IF NO
+MORE NETS,
+GO TO 83.","GO TO 78 IN FIRST
+COLUMN OF A NEW
+QUESTIONNAIRE;
+OR, IF NO MORE
+NETS, GO TO 83.",,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+83,"अब हम उन स्थान� के बारे म� जानना चाहेग� जहाँ पर प�रवार अपने हाथ धोते
+ह� । कृपया मुझे वह स् थान �दखाएं जहां पर आपके घर के सदस् य �ायः हाथ धोते
+ह�?
+We would now like to learn about the places that households
+use to wash their hands.
+Can you please show me where members of your household
+most often wash their hands?","OBSERVED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NOT OBSERVED,
+NOT IN DWELLING/YARD/PLOT. . . . . . . . . . . . . . . . . . . . 2
+NOT OBSERVED,
+NO PERMISSION TO SEE . . . . . . . . . . . . . . . . . . . . . . . . . 3
+NOT OBSERVED, OTHER REASON . . . . . . . . . . . . . . . . . . 4
+(SKIP TO 86)",,,,,,,,,,,,,,,,,
+84,"OBSERVATION ONLY:
+OBSERVE PRESENCE OF WATER AT THE
+PLACE FOR HANDWASHING.","WATER IS AVAILABLE . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+WATER IS NOT AVAILABLE . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,
+85,"OBSERVATION ONLY:
+OBSERVE PRESENCE OF SOAP, DETERGENT, OR
+OTHER CLEANSING AGENT.
+RECORD ALL MENTIONED.","SOAP OR DETERGENT
+(BAR, LIQUID, POWDER, PASTE) . . . . . . . . . . . . . . . . . . A
+ASH, MUD, SAND . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . B
+NONE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . C",,,,,,,,,,,,,,,,,
+86,"म� यह जांचना चा�ंगा/चा�ँगी �क क्या आपके घर म� आयोडीनयु� नमक है या
+नह�. क्या आप मुझे नमक का एक नमूना दे सकते ह� िजसका उपयोग आपके घर
+म� खाना पकाने के िलए �कया जाता ह?ै
+I would like to check whether the salt used in your
+household is iodized. May I have a sample
+of the salt used to cook meals in your household?
+TEST SALT FOR IODINE.","IODINE PRESENT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO IODINE . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+NO SALT IN HOUSEHOLD . . . . . . . . . . . . . . . . . . . . . . . . . 3
+SALT NOT TESTED 6
+(SPECIFY REASON)",,,,,,,,,,,,,,,,,
+"जनवरी 2016 से क्या इस घर के �कसी सामान्य सदस्य �क मृत्यु �ई ह?ै
+Did any usual member of this household die since January 2016?","YES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+NO . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2",,,,,,,,,,,,,,,,,,
+"�कतने लोग� �क मृत्यु �ई ह?ै
+How many persons died?",TOTAL DEATHS . . . . . . . . . . . . . . . . . . .,,,,,,,,,,,,,,,,,,
+,,,,,,,"IF FEMALE AND
+DIED WHEN 12
+YEARS OR OLDER:",,,,,,,,,,,,
+,,,,,,,"IF FEMALE AND
+DIED WHEN 12
+YEARS OR OLDER:",,,,,,,,,,,,
+89,90,91,92,,,93,94,95,,,,,,,,,,,
+"कृपया
+उनका/उनके नाम
+बताये िजनक�
+मृत्यु �ई ह.ै
+Please tell me
+the name(s)
+of the
+(person/
+people) who
+died.","क्या (NAME)
+पु�ष था या �ी?
+Was (NAME)
+male or
+female?","क्या (NAME)
+क� मृत्यु िसिवल
+�ािधकारी के पास
+दजर् कराई गई थी?
+Was
+(NAME's)
+death
+registered
+with the civil
+authority?","(NAME) �क आयु �कतनी
+थी जब (उनका/उनक�) मृत्यु
+�आ/�ई थ�?
+How old was (NAME)
+when (he/she) died?
+RECORD IN DAYS
+OR MONTHS OR
+YEARS.",,,"�कस मिहने और साल म�
+(NAME) �क मृत्यु �ई?
+In what month and
+year did (NAME)
+die?","क्या (NAME) �क मृत्यु
+गभार्वस्था के दौरान, �सव के
+दौरान, या गभार्वस्था के समाि�
+या ब�े के जन्म के दो मिहने के
+अंदर �ई?
+Did (NAME) die during
+pregnancy, during
+childbirth or within two
+months after the end of
+pregnancy or childbirth?","क्या मृत्यु दुघर्टना, �हसा,
+िवष [जहर], डूबक,े आपदा
+ह्त्या या आत्महत्या के कारण
+�ई?
+Was the death due to an
+accident, violence,
+poisoning, drowning,
+disaster, homicide or
+suicide?",,,,,,,,,,,
+"(1)
+NAME","MALE . . . . 1
+FEMALE . . 2","YES. . . 1
+NO . . . 2","DAYS 1
+MONTHS 2
+YEARS 3",,,"MONTH
+YEAR","YES . . . . . . . . . . 1
+GO TO
+NEXT LINE
+NO . . . . . . . . . . . . 2","YES . . . . . . . . . 1
+NO . . . . . . . . . . . 2",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"(2)
+NAME","MALE . . . . 1
+FEMALE . . 2","YES. . . 1
+NO . . . 2","DAYS 1
+MONTHS 2
+YEARS 3",,,"MONTH
+YEAR","YES . . . . . . . . . . 1
+GO TO
+NEXT LINE
+NO . . . . . . . . . . . . 2","YES . . . . . . . . . 1
+NO . . . . . . . . . . . 2",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"(3)
+NAME","MALE . . . . 1
+FEMALE . . 2","YES. . . 1
+NO . . . 2","DAYS 1
+MONTHS 2
+YEARS 3",,,"MONTH
+YEAR","YES . . . . . . . . . . 1
+GO TO
+NEXT LINE
+NO . . . . . . . . . . . . 2","YES . . . . . . . . . 1
+NO . . . . . . . . . . . 2",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"(4)
+NAME","MALE . . . . 1
+FEMALE . . 2","YES. . . 1
+NO . . . 2","DAYS 1
+MONTHS 2
+YEARS 3",,,"MONTH
+YEAR","YES . . . . . . . . . . 1
+GO TO
+NEXT LINE
+NO . . . . . . . . . . . . 2","YES . . . . . . . . . 1
+NO . . . . . . . . . . . 2",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+"(5)
+NAME","MALE . . . . 1
+FEMALE . . 2","YES. . . 1
+NO . . . 2","DAYS 1
+MONTHS 2
+YEARS 3",,,"MONTH
+YEAR","YES . . . . . . . . . . 1
+GO TO
+NEXT LINE
+NO . . . . . . . . . . . . 2","YES . . . . . . . . . 1
+NO . . . . . . . . . . . 2",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,

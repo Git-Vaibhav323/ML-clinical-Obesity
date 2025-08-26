@@ -1,0 +1,7 @@
+height_cm,weight_kg,adl_limitation_flag,organ_dysfunction_flag,age,sex,region,BMI,clinical_obesity_label
+170,65,0,0,30,M,North,22.49,0
+165,60,0,0,28,F,South,22.04,0
+172,80,0,0,35,M,East,27.04,1
+160,70,0,0,40,F,West,27.34,1
+168,95,1,0,50,M,North,33.63,2
+155,80,0,1,45,F,South,33.32,2
